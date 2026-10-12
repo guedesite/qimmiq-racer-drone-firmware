@@ -1,0 +1,40 @@
+{
+  "exact_original_flash_reconstructed": true,
+  "size": 131072,
+  "sha256": "ec90df9a62bfb389fe555c82dd5192eda0db17ec880896aa340456b8e15de3fc",
+  "recompiled": [
+    "application",
+    "OpFw descriptors"
+  ],
+  "preserved_from_dump": [
+    "bootloader and BD_INFO: [0x08000000, 0x08003000)"
+  ],
+  "padding": "0xff",
+  "external_settings_recovered": false,
+  "fully_recompiled_image_comparison": {
+    "size": 131072,
+    "identical": false,
+    "regions": {
+      "bootloader_and_board_info": {
+        "identical": false,
+        "different_bytes": 11181
+      },
+      "application": {
+        "identical": true,
+        "different_bytes": 0
+      },
+      "first_descriptor": {
+        "identical": false,
+        "different_bytes": 100
+      },
+      "padding": {
+        "identical": true,
+        "different_bytes": 0
+      },
+      "last_descriptor": {
+        "identical": true,
+        "different_bytes": 0
+      }
+    }
+  }
+}

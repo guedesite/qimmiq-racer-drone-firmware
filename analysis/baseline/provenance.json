@@ -1,0 +1,13 @@
+{
+  "revision": "bf68cc84d471feb0d9346f40f012e6c8e4de4bbb",
+  "archive_url": "https://codeload.github.com/librepilot/LibrePilot/zip/bf68cc84d471feb0d9346f40f012e6c8e4de4bbb",
+  "archive_sha256": "fc869ebb66c9ba2231ce4cbd690b36d6fef6797707e1d62ec0a5a7110f962b2c",
+  "source_directory": "analysis\\baseline\\LibrePilot-bf68cc84d471feb0d9346f40f012e6c8e4de4bbb",
+  "generated_files": [
+    "version-info.json"
+  ],
+  "target": "fw_coptercontrol",
+  "firmware_base": "0x08003000",
+  "expected_firmware_sha1": "6c47a76d1d372542e35053159aee896ed1cd1e4e",
+  "expected_uavo_sha1": "e700bb5174d04ca794312e6234a78b01469143df"
+}

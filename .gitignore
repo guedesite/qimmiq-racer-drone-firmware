@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+analysis/ghidra_projects/
+analysis/baseline/LibrePilot-*/
+analysis/baseline/*.zip
+analysis/baseline/*.partial
+analysis/baseline/toolchains/
+analysis/baseline/*.log
+
+# Regenerable source snapshots, binaries and host-specific working files.
+analysis/upstream/
+analysis/local-notes/
+analysis/baseline/artifacts/*.bin
+analysis/baseline/artifacts/*.elf
+analysis/baseline/artifacts/*.map
+analysis/baseline/artifacts/*.opfw
+analysis/baseline/firmware-1for1.bin
+
+# Keep other owners' dumps, calibration and receiver settings private by default.
+dumps/
+analysis/saved_settings.json

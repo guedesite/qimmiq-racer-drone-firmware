@@ -1,0 +1,26 @@
+{
+  "revision": "bf68cc84d471feb0d9346f40f012e6c8e4de4bbb",
+  "application_verified_identical": true,
+  "files": [
+    {
+      "file": "fw_coptercontrol.bin",
+      "size": 95896,
+      "sha256": "226e19be01ec0cebb8a1b37f0fc220183a6563694d58298bdb0b70a837c9ad08"
+    },
+    {
+      "file": "fw_coptercontrol.elf",
+      "size": 1472733,
+      "sha256": "0aa9768c329b631626e7326909be81d90b0aa4be54892007fbe63fcccc307002"
+    },
+    {
+      "file": "fw_coptercontrol.map",
+      "size": 2389506,
+      "sha256": "af6372ebf2ecdd948ddde0f22579523a3b6a5a8c64dcfafe59fe02fd50898b4a"
+    },
+    {
+      "file": "fw_coptercontrol.opfw",
+      "size": 95996,
+      "sha256": "06037ba277b9fe90caa47ea61ba1edfc9071922cc8e37526348787528ce7e7cd"
+    }
+  ]
+}

@@ -1,0 +1,8750 @@
+{
+  "application_base": "0x8003000",
+  "application_size": 95896,
+  "application_sha1": "6c47a76d1d372542e35053159aee896ed1cd1e4e",
+  "verified_byte_identical": true,
+  "symbols": [
+    {
+      "address": "0x8003000",
+      "size": 0,
+      "kind": "T",
+      "name": "g_pfnVectors"
+    },
+    {
+      "address": "0x8003000",
+      "size": 0,
+      "kind": "T",
+      "name": "pios_isr_vector_table_base"
+    },
+    {
+      "address": "0x800310c",
+      "size": 88,
+      "kind": "W",
+      "name": "Reset_Handler"
+    },
+    {
+      "address": "0x800312a",
+      "size": 0,
+      "kind": "t",
+      "name": "FillIRQStack"
+    },
+    {
+      "address": "0x8003132",
+      "size": 0,
+      "kind": "t",
+      "name": "LoopFillIRQStack"
+    },
+    {
+      "address": "0x8003138",
+      "size": 0,
+      "kind": "t",
+      "name": "SectionBssInit"
+    },
+    {
+      "address": "0x800313c",
+      "size": 0,
+      "kind": "t",
+      "name": "CopyDataInit"
+    },
+    {
+      "address": "0x8003144",
+      "size": 0,
+      "kind": "t",
+      "name": "LoopCopyDataInit"
+    },
+    {
+      "address": "0x8003152",
+      "size": 0,
+      "kind": "t",
+      "name": "FillZerobss"
+    },
+    {
+      "address": "0x8003158",
+      "size": 0,
+      "kind": "t",
+      "name": "LoopFillZerobss"
+    },
+    {
+      "address": "0x8003184",
+      "size": 24,
+      "kind": "W",
+      "name": "Stack_Change"
+    },
+    {
+      "address": "0x800318c",
+      "size": 0,
+      "kind": "t",
+      "name": "Heap_Reclaim"
+    },
+    {
+      "address": "0x80031a8",
+      "size": 60,
+      "kind": "T",
+      "name": "NotificationUpdateStatus"
+    },
+    {
+      "address": "0x80031e4",
+      "size": 576,
+      "kind": "T",
+      "name": "NotificationOnboardLedsRun"
+    },
+    {
+      "address": "0x8003424",
+      "size": 232,
+      "kind": "T",
+      "name": "SystemInit"
+    },
+    {
+      "address": "0x800350c",
+      "size": 96,
+      "kind": "T",
+      "name": "PIOS_USB_BOARD_DATA_Init"
+    },
+    {
+      "address": "0x800356c",
+      "size": 64,
+      "kind": "t",
+      "name": "checkSettingsUpdatedCb"
+    },
+    {
+      "address": "0x80035ac",
+      "size": 860,
+      "kind": "t",
+      "name": "systemTask"
+    },
+    {
+      "address": "0x8003908",
+      "size": 72,
+      "kind": "T",
+      "name": "SystemModStart"
+    },
+    {
+      "address": "0x8003950",
+      "size": 52,
+      "kind": "T",
+      "name": "SystemModInitialize"
+    },
+    {
+      "address": "0x8003984",
+      "size": 12,
+      "kind": "T",
+      "name": "vApplicationStackOverflowHook"
+    },
+    {
+      "address": "0x8003990",
+      "size": 12,
+      "kind": "T",
+      "name": "vApplicationMallocFailedHook"
+    },
+    {
+      "address": "0x800399c",
+      "size": 60,
+      "kind": "T",
+      "name": "main"
+    },
+    {
+      "address": "0x80039d8",
+      "size": 28,
+      "kind": "T",
+      "name": "PIOS_BOARD_HW_DEFS_GetLedCfg"
+    },
+    {
+      "address": "0x80039f4",
+      "size": 12,
+      "kind": "T",
+      "name": "DMA1_Channel2_IRQHandler"
+    },
+    {
+      "address": "0x80039f4",
+      "size": 12,
+      "kind": "T",
+      "name": "DMA1_Channel3_IRQHandler"
+    },
+    {
+      "address": "0x80039f4",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_SPI_gyro_irq_handler"
+    },
+    {
+      "address": "0x8003a00",
+      "size": 12,
+      "kind": "T",
+      "name": "DMA1_Channel4_IRQHandler"
+    },
+    {
+      "address": "0x8003a00",
+      "size": 12,
+      "kind": "T",
+      "name": "DMA1_Channel5_IRQHandler"
+    },
+    {
+      "address": "0x8003a00",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_SPI_flash_accel_irq_handler"
+    },
+    {
+      "address": "0x8003a0c",
+      "size": 1824,
+      "kind": "T",
+      "name": "PIOS_Board_Init"
+    },
+    {
+      "address": "0x800412c",
+      "size": 24,
+      "kind": "T",
+      "name": "AlarmsInitialize"
+    },
+    {
+      "address": "0x8004144",
+      "size": 112,
+      "kind": "T",
+      "name": "AlarmsSet"
+    },
+    {
+      "address": "0x80041b4",
+      "size": 140,
+      "kind": "T",
+      "name": "ExtendedAlarmsSet"
+    },
+    {
+      "address": "0x8004240",
+      "size": 64,
+      "kind": "T",
+      "name": "AlarmsGetHighestSeverity"
+    },
+    {
+      "address": "0x8004280",
+      "size": 60,
+      "kind": "T",
+      "name": "UAVObjInitialize"
+    },
+    {
+      "address": "0x80042bc",
+      "size": 60,
+      "kind": "T",
+      "name": "UAVObjGetStats"
+    },
+    {
+      "address": "0x80042f8",
+      "size": 44,
+      "kind": "T",
+      "name": "UAVObjClearStats"
+    },
+    {
+      "address": "0x8004324",
+      "size": 84,
+      "kind": "T",
+      "name": "UAVObjGetByID"
+    },
+    {
+      "address": "0x8004378",
+      "size": 76,
+      "kind": "T",
+      "name": "UAVObjSaveSettings"
+    },
+    {
+      "address": "0x80043c4",
+      "size": 76,
+      "kind": "T",
+      "name": "UAVObjLoadSettings"
+    },
+    {
+      "address": "0x8004410",
+      "size": 76,
+      "kind": "T",
+      "name": "UAVObjDeleteSettings"
+    },
+    {
+      "address": "0x800445c",
+      "size": 72,
+      "kind": "T",
+      "name": "UAVObjSaveMetaobjects"
+    },
+    {
+      "address": "0x80044a4",
+      "size": 72,
+      "kind": "T",
+      "name": "UAVObjLoadMetaobjects"
+    },
+    {
+      "address": "0x80044ec",
+      "size": 72,
+      "kind": "T",
+      "name": "UAVObjDeleteMetaobjects"
+    },
+    {
+      "address": "0x8004534",
+      "size": 56,
+      "kind": "T",
+      "name": "UAVObjConnectQueue"
+    },
+    {
+      "address": "0x800456c",
+      "size": 52,
+      "kind": "T",
+      "name": "UAVObjConnectCallback"
+    },
+    {
+      "address": "0x80045a0",
+      "size": 72,
+      "kind": "T",
+      "name": "UAVObjIterate"
+    },
+    {
+      "address": "0x80045e8",
+      "size": 112,
+      "kind": "T",
+      "name": "sendEvent"
+    },
+    {
+      "address": "0x8004658",
+      "size": 48,
+      "kind": "t",
+      "name": "instanceAutoUpdated"
+    },
+    {
+      "address": "0x8004688",
+      "size": 288,
+      "kind": "T",
+      "name": "UAVObjRegister"
+    },
+    {
+      "address": "0x80047a8",
+      "size": 72,
+      "kind": "T",
+      "name": "UAVObjCreateInstance"
+    },
+    {
+      "address": "0x80047f0",
+      "size": 48,
+      "kind": "T",
+      "name": "UAVObjInstanceUpdated"
+    },
+    {
+      "address": "0x8004820",
+      "size": 108,
+      "kind": "T",
+      "name": "UAVObjUnpack"
+    },
+    {
+      "address": "0x800488c",
+      "size": 96,
+      "kind": "T",
+      "name": "UAVObjPack"
+    },
+    {
+      "address": "0x80048ec",
+      "size": 88,
+      "kind": "T",
+      "name": "UAVObjInstanceWriteToLog"
+    },
+    {
+      "address": "0x8004944",
+      "size": 104,
+      "kind": "T",
+      "name": "UAVObjSetInstanceData"
+    },
+    {
+      "address": "0x80049ac",
+      "size": 60,
+      "kind": "T",
+      "name": "UAVObjSetMetadata"
+    },
+    {
+      "address": "0x80049e8",
+      "size": 128,
+      "kind": "T",
+      "name": "UAVObjSetInstanceDataField"
+    },
+    {
+      "address": "0x8004a68",
+      "size": 96,
+      "kind": "T",
+      "name": "UAVObjGetInstanceData"
+    },
+    {
+      "address": "0x8004ac8",
+      "size": 68,
+      "kind": "T",
+      "name": "UAVObjGetMetadata"
+    },
+    {
+      "address": "0x8004b0c",
+      "size": 124,
+      "kind": "T",
+      "name": "UAVObjGetInstanceDataField"
+    },
+    {
+      "address": "0x8004b88",
+      "size": 128,
+      "kind": "T",
+      "name": "UAVObjSave"
+    },
+    {
+      "address": "0x8004c08",
+      "size": 152,
+      "kind": "T",
+      "name": "UAVObjLoad"
+    },
+    {
+      "address": "0x8004ca0",
+      "size": 36,
+      "kind": "T",
+      "name": "UAVObjDelete"
+    },
+    {
+      "address": "0x8004cc4",
+      "size": 80,
+      "kind": "t",
+      "name": "randomizePeriod"
+    },
+    {
+      "address": "0x8004d14",
+      "size": 236,
+      "kind": "t",
+      "name": "eventTask"
+    },
+    {
+      "address": "0x8004e00",
+      "size": 116,
+      "kind": "t",
+      "name": "eventPeriodicUpdate"
+    },
+    {
+      "address": "0x8004e74",
+      "size": 176,
+      "kind": "t",
+      "name": "eventPeriodicCreate"
+    },
+    {
+      "address": "0x8004f24",
+      "size": 104,
+      "kind": "T",
+      "name": "EventDispatcherInitialize"
+    },
+    {
+      "address": "0x8004f8c",
+      "size": 44,
+      "kind": "T",
+      "name": "EventGetStats"
+    },
+    {
+      "address": "0x8004fb8",
+      "size": 40,
+      "kind": "T",
+      "name": "EventClearStats"
+    },
+    {
+      "address": "0x8004fe0",
+      "size": 60,
+      "kind": "T",
+      "name": "EventCallbackDispatch"
+    },
+    {
+      "address": "0x800501c",
+      "size": 68,
+      "kind": "T",
+      "name": "AccessoryDesiredInitialize"
+    },
+    {
+      "address": "0x8005060",
+      "size": 12,
+      "kind": "T",
+      "name": "AccessoryDesiredHandle"
+    },
+    {
+      "address": "0x800506c",
+      "size": 68,
+      "kind": "T",
+      "name": "ObjectPersistenceInitialize"
+    },
+    {
+      "address": "0x80050b0",
+      "size": 12,
+      "kind": "T",
+      "name": "ObjectPersistenceHandle"
+    },
+    {
+      "address": "0x80050bc",
+      "size": 68,
+      "kind": "T",
+      "name": "GCSTelemetryStatsInitialize"
+    },
+    {
+      "address": "0x8005100",
+      "size": 12,
+      "kind": "T",
+      "name": "GCSTelemetryStatsHandle"
+    },
+    {
+      "address": "0x800510c",
+      "size": 68,
+      "kind": "T",
+      "name": "FlightTelemetryStatsInitialize"
+    },
+    {
+      "address": "0x8005150",
+      "size": 12,
+      "kind": "T",
+      "name": "FlightTelemetryStatsHandle"
+    },
+    {
+      "address": "0x800515c",
+      "size": 68,
+      "kind": "T",
+      "name": "FlightStatusInitialize"
+    },
+    {
+      "address": "0x80051a0",
+      "size": 12,
+      "kind": "T",
+      "name": "FlightStatusHandle"
+    },
+    {
+      "address": "0x80051ac",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightStatusArmedGet"
+    },
+    {
+      "address": "0x80051c0",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightStatusControlChainGet"
+    },
+    {
+      "address": "0x80051d4",
+      "size": 68,
+      "kind": "T",
+      "name": "SystemStatsInitialize"
+    },
+    {
+      "address": "0x8005218",
+      "size": 12,
+      "kind": "T",
+      "name": "SystemStatsHandle"
+    },
+    {
+      "address": "0x8005224",
+      "size": 68,
+      "kind": "T",
+      "name": "SystemAlarmsInitialize"
+    },
+    {
+      "address": "0x8005268",
+      "size": 12,
+      "kind": "T",
+      "name": "SystemAlarmsHandle"
+    },
+    {
+      "address": "0x8005274",
+      "size": 20,
+      "kind": "T",
+      "name": "SystemAlarmsAlarmSet"
+    },
+    {
+      "address": "0x8005288",
+      "size": 20,
+      "kind": "T",
+      "name": "SystemAlarmsAlarmGet"
+    },
+    {
+      "address": "0x800529c",
+      "size": 88,
+      "kind": "T",
+      "name": "SystemSettingsSetDefaults"
+    },
+    {
+      "address": "0x80052f4",
+      "size": 68,
+      "kind": "T",
+      "name": "SystemSettingsInitialize"
+    },
+    {
+      "address": "0x8005338",
+      "size": 12,
+      "kind": "T",
+      "name": "SystemSettingsHandle"
+    },
+    {
+      "address": "0x8005344",
+      "size": 20,
+      "kind": "T",
+      "name": "SystemSettingsAirframeTypeGet"
+    },
+    {
+      "address": "0x8005358",
+      "size": 20,
+      "kind": "T",
+      "name": "SystemSettingsThrustControlGet"
+    },
+    {
+      "address": "0x800536c",
+      "size": 68,
+      "kind": "T",
+      "name": "StabilizationDesiredInitialize"
+    },
+    {
+      "address": "0x80053b0",
+      "size": 12,
+      "kind": "T",
+      "name": "StabilizationDesiredHandle"
+    },
+    {
+      "address": "0x80053bc",
+      "size": 20,
+      "kind": "T",
+      "name": "StabilizationDesiredThrustGet"
+    },
+    {
+      "address": "0x80053d0",
+      "size": 20,
+      "kind": "T",
+      "name": "StabilizationDesiredStabilizationModeGet"
+    },
+    {
+      "address": "0x80053e4",
+      "size": 220,
+      "kind": "T",
+      "name": "StabilizationSettingsSetDefaults"
+    },
+    {
+      "address": "0x80054c0",
+      "size": 68,
+      "kind": "T",
+      "name": "StabilizationSettingsInitialize"
+    },
+    {
+      "address": "0x8005504",
+      "size": 12,
+      "kind": "T",
+      "name": "StabilizationSettingsHandle"
+    },
+    {
+      "address": "0x8005510",
+      "size": 20,
+      "kind": "T",
+      "name": "StabilizationSettingsFlightModeAssistMapGet"
+    },
+    {
+      "address": "0x8005524",
+      "size": 248,
+      "kind": "T",
+      "name": "StabilizationSettingsBank1SetDefaults"
+    },
+    {
+      "address": "0x800561c",
+      "size": 68,
+      "kind": "T",
+      "name": "StabilizationSettingsBank1Initialize"
+    },
+    {
+      "address": "0x8005660",
+      "size": 12,
+      "kind": "T",
+      "name": "StabilizationSettingsBank1Handle"
+    },
+    {
+      "address": "0x800566c",
+      "size": 248,
+      "kind": "T",
+      "name": "StabilizationSettingsBank2SetDefaults"
+    },
+    {
+      "address": "0x8005764",
+      "size": 68,
+      "kind": "T",
+      "name": "StabilizationSettingsBank2Initialize"
+    },
+    {
+      "address": "0x80057a8",
+      "size": 12,
+      "kind": "T",
+      "name": "StabilizationSettingsBank2Handle"
+    },
+    {
+      "address": "0x80057b4",
+      "size": 248,
+      "kind": "T",
+      "name": "StabilizationSettingsBank3SetDefaults"
+    },
+    {
+      "address": "0x80058ac",
+      "size": 68,
+      "kind": "T",
+      "name": "StabilizationSettingsBank3Initialize"
+    },
+    {
+      "address": "0x80058f0",
+      "size": 12,
+      "kind": "T",
+      "name": "StabilizationSettingsBank3Handle"
+    },
+    {
+      "address": "0x80058fc",
+      "size": 68,
+      "kind": "T",
+      "name": "StabilizationStatusInitialize"
+    },
+    {
+      "address": "0x8005940",
+      "size": 12,
+      "kind": "T",
+      "name": "StabilizationStatusHandle"
+    },
+    {
+      "address": "0x800594c",
+      "size": 20,
+      "kind": "T",
+      "name": "StabilizationStatusOuterLoopGet"
+    },
+    {
+      "address": "0x8005960",
+      "size": 20,
+      "kind": "T",
+      "name": "StabilizationStatusInnerLoopGet"
+    },
+    {
+      "address": "0x8005974",
+      "size": 252,
+      "kind": "T",
+      "name": "StabilizationBankSetDefaults"
+    },
+    {
+      "address": "0x8005a70",
+      "size": 68,
+      "kind": "T",
+      "name": "StabilizationBankInitialize"
+    },
+    {
+      "address": "0x8005ab4",
+      "size": 12,
+      "kind": "T",
+      "name": "StabilizationBankHandle"
+    },
+    {
+      "address": "0x8005ac0",
+      "size": 68,
+      "kind": "T",
+      "name": "ActuatorCommandInitialize"
+    },
+    {
+      "address": "0x8005b04",
+      "size": 12,
+      "kind": "T",
+      "name": "ActuatorCommandHandle"
+    },
+    {
+      "address": "0x8005b10",
+      "size": 20,
+      "kind": "T",
+      "name": "ActuatorCommandChannelSet"
+    },
+    {
+      "address": "0x8005b24",
+      "size": 20,
+      "kind": "T",
+      "name": "ActuatorCommandChannelGet"
+    },
+    {
+      "address": "0x8005b38",
+      "size": 68,
+      "kind": "T",
+      "name": "ActuatorDesiredInitialize"
+    },
+    {
+      "address": "0x8005b7c",
+      "size": 12,
+      "kind": "T",
+      "name": "ActuatorDesiredHandle"
+    },
+    {
+      "address": "0x8005b88",
+      "size": 20,
+      "kind": "T",
+      "name": "ActuatorDesiredThrustGet"
+    },
+    {
+      "address": "0x8005b9c",
+      "size": 68,
+      "kind": "T",
+      "name": "ActuatorSettingsInitialize"
+    },
+    {
+      "address": "0x8005be0",
+      "size": 12,
+      "kind": "T",
+      "name": "ActuatorSettingsHandle"
+    },
+    {
+      "address": "0x8005bec",
+      "size": 20,
+      "kind": "T",
+      "name": "ActuatorSettingsBankModeGet"
+    },
+    {
+      "address": "0x8005c00",
+      "size": 68,
+      "kind": "T",
+      "name": "AccelStateInitialize"
+    },
+    {
+      "address": "0x8005c44",
+      "size": 12,
+      "kind": "T",
+      "name": "AccelStateHandle"
+    },
+    {
+      "address": "0x8005c50",
+      "size": 68,
+      "kind": "T",
+      "name": "AccelGyroSettingsInitialize"
+    },
+    {
+      "address": "0x8005c94",
+      "size": 12,
+      "kind": "T",
+      "name": "AccelGyroSettingsHandle"
+    },
+    {
+      "address": "0x8005ca0",
+      "size": 68,
+      "kind": "T",
+      "name": "GyroStateInitialize"
+    },
+    {
+      "address": "0x8005ce4",
+      "size": 12,
+      "kind": "T",
+      "name": "GyroStateHandle"
+    },
+    {
+      "address": "0x8005cf0",
+      "size": 68,
+      "kind": "T",
+      "name": "AttitudeStateInitialize"
+    },
+    {
+      "address": "0x8005d34",
+      "size": 12,
+      "kind": "T",
+      "name": "AttitudeStateHandle"
+    },
+    {
+      "address": "0x8005d40",
+      "size": 20,
+      "kind": "T",
+      "name": "AttitudeStateRollGet"
+    },
+    {
+      "address": "0x8005d54",
+      "size": 20,
+      "kind": "T",
+      "name": "AttitudeStatePitchGet"
+    },
+    {
+      "address": "0x8005d68",
+      "size": 20,
+      "kind": "T",
+      "name": "AttitudeStateYawGet"
+    },
+    {
+      "address": "0x8005d7c",
+      "size": 68,
+      "kind": "T",
+      "name": "ManualControlCommandInitialize"
+    },
+    {
+      "address": "0x8005dc0",
+      "size": 12,
+      "kind": "T",
+      "name": "ManualControlCommandHandle"
+    },
+    {
+      "address": "0x8005dcc",
+      "size": 20,
+      "kind": "T",
+      "name": "ManualControlCommandThrottleGet"
+    },
+    {
+      "address": "0x8005de0",
+      "size": 20,
+      "kind": "T",
+      "name": "ManualControlCommandCollectiveGet"
+    },
+    {
+      "address": "0x8005df4",
+      "size": 20,
+      "kind": "T",
+      "name": "ManualControlCommandFlightModeSwitchPositionGet"
+    },
+    {
+      "address": "0x8005e08",
+      "size": 260,
+      "kind": "T",
+      "name": "ManualControlSettingsSetDefaults"
+    },
+    {
+      "address": "0x8005f0c",
+      "size": 68,
+      "kind": "T",
+      "name": "ManualControlSettingsInitialize"
+    },
+    {
+      "address": "0x8005f50",
+      "size": 12,
+      "kind": "T",
+      "name": "ManualControlSettingsHandle"
+    },
+    {
+      "address": "0x8005f5c",
+      "size": 20,
+      "kind": "T",
+      "name": "ManualControlSettingsChannelMinGet"
+    },
+    {
+      "address": "0x8005f70",
+      "size": 20,
+      "kind": "T",
+      "name": "ManualControlSettingsChannelMaxGet"
+    },
+    {
+      "address": "0x8005f84",
+      "size": 20,
+      "kind": "T",
+      "name": "ManualControlSettingsFlightModeNumberGet"
+    },
+    {
+      "address": "0x8005f98",
+      "size": 244,
+      "kind": "T",
+      "name": "FlightModeSettingsSetDefaults"
+    },
+    {
+      "address": "0x800608c",
+      "size": 68,
+      "kind": "T",
+      "name": "FlightModeSettingsInitialize"
+    },
+    {
+      "address": "0x80060d0",
+      "size": 12,
+      "kind": "T",
+      "name": "FlightModeSettingsHandle"
+    },
+    {
+      "address": "0x80060dc",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightModeSettingsStabilization1SettingsArrayGet"
+    },
+    {
+      "address": "0x80060f0",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightModeSettingsStabilization2SettingsArrayGet"
+    },
+    {
+      "address": "0x8006104",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightModeSettingsStabilization3SettingsArrayGet"
+    },
+    {
+      "address": "0x8006118",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightModeSettingsStabilization4SettingsArrayGet"
+    },
+    {
+      "address": "0x800612c",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightModeSettingsStabilization5SettingsArrayGet"
+    },
+    {
+      "address": "0x8006140",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightModeSettingsStabilization6SettingsArrayGet"
+    },
+    {
+      "address": "0x8006154",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightModeSettingsFlightModePositionGet"
+    },
+    {
+      "address": "0x8006168",
+      "size": 20,
+      "kind": "T",
+      "name": "FlightModeSettingsDisableSanityChecksGet"
+    },
+    {
+      "address": "0x800617c",
+      "size": 112,
+      "kind": "T",
+      "name": "MixerSettingsSetDefaults"
+    },
+    {
+      "address": "0x80061ec",
+      "size": 68,
+      "kind": "T",
+      "name": "MixerSettingsInitialize"
+    },
+    {
+      "address": "0x8006230",
+      "size": 12,
+      "kind": "T",
+      "name": "MixerSettingsHandle"
+    },
+    {
+      "address": "0x800623c",
+      "size": 68,
+      "kind": "T",
+      "name": "FirmwareIAPObjInitialize"
+    },
+    {
+      "address": "0x8006280",
+      "size": 12,
+      "kind": "T",
+      "name": "FirmwareIAPObjHandle"
+    },
+    {
+      "address": "0x800628c",
+      "size": 112,
+      "kind": "T",
+      "name": "AttitudeSettingsSetDefaults"
+    },
+    {
+      "address": "0x80062fc",
+      "size": 68,
+      "kind": "T",
+      "name": "AttitudeSettingsInitialize"
+    },
+    {
+      "address": "0x8006340",
+      "size": 12,
+      "kind": "T",
+      "name": "AttitudeSettingsHandle"
+    },
+    {
+      "address": "0x800634c",
+      "size": 20,
+      "kind": "T",
+      "name": "AttitudeSettingsAccelKpGet"
+    },
+    {
+      "address": "0x8006360",
+      "size": 20,
+      "kind": "T",
+      "name": "AttitudeSettingsAccelKiGet"
+    },
+    {
+      "address": "0x8006374",
+      "size": 20,
+      "kind": "T",
+      "name": "AttitudeSettingsYawBiasRateGet"
+    },
+    {
+      "address": "0x8006388",
+      "size": 68,
+      "kind": "T",
+      "name": "CameraStabSettingsInitialize"
+    },
+    {
+      "address": "0x80063cc",
+      "size": 12,
+      "kind": "T",
+      "name": "CameraStabSettingsHandle"
+    },
+    {
+      "address": "0x80063d8",
+      "size": 68,
+      "kind": "T",
+      "name": "CameraDesiredInitialize"
+    },
+    {
+      "address": "0x800641c",
+      "size": 12,
+      "kind": "T",
+      "name": "CameraDesiredHandle"
+    },
+    {
+      "address": "0x8006428",
+      "size": 20,
+      "kind": "T",
+      "name": "CameraDesiredRollOrServo1Set"
+    },
+    {
+      "address": "0x800643c",
+      "size": 20,
+      "kind": "T",
+      "name": "CameraDesiredPitchOrServo2Set"
+    },
+    {
+      "address": "0x8006450",
+      "size": 20,
+      "kind": "T",
+      "name": "CameraDesiredYawSet"
+    },
+    {
+      "address": "0x8006464",
+      "size": 68,
+      "kind": "T",
+      "name": "GPSPositionSensorInitialize"
+    },
+    {
+      "address": "0x80064a8",
+      "size": 12,
+      "kind": "T",
+      "name": "GPSPositionSensorHandle"
+    },
+    {
+      "address": "0x80064b4",
+      "size": 20,
+      "kind": "T",
+      "name": "GPSPositionSensorStatusSet"
+    },
+    {
+      "address": "0x80064c8",
+      "size": 20,
+      "kind": "T",
+      "name": "GPSPositionSensorStatusGet"
+    },
+    {
+      "address": "0x80064dc",
+      "size": 68,
+      "kind": "T",
+      "name": "GPSVelocitySensorInitialize"
+    },
+    {
+      "address": "0x8006520",
+      "size": 12,
+      "kind": "T",
+      "name": "GPSVelocitySensorHandle"
+    },
+    {
+      "address": "0x800652c",
+      "size": 116,
+      "kind": "T",
+      "name": "GPSSettingsSetDefaults"
+    },
+    {
+      "address": "0x80065a0",
+      "size": 68,
+      "kind": "T",
+      "name": "GPSSettingsInitialize"
+    },
+    {
+      "address": "0x80065e4",
+      "size": 12,
+      "kind": "T",
+      "name": "GPSSettingsHandle"
+    },
+    {
+      "address": "0x80065f0",
+      "size": 20,
+      "kind": "T",
+      "name": "GPSSettingsDataProtocolGet"
+    },
+    {
+      "address": "0x8006604",
+      "size": 68,
+      "kind": "T",
+      "name": "HwSettingsInitialize"
+    },
+    {
+      "address": "0x8006648",
+      "size": 12,
+      "kind": "T",
+      "name": "HwSettingsHandle"
+    },
+    {
+      "address": "0x8006654",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsCC_RcvrPortGet"
+    },
+    {
+      "address": "0x8006668",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsCC_MainPortGet"
+    },
+    {
+      "address": "0x800667c",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsCC_FlexiPortGet"
+    },
+    {
+      "address": "0x8006690",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsTelemetrySpeedGet"
+    },
+    {
+      "address": "0x80066a4",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsGPSSpeedGet"
+    },
+    {
+      "address": "0x80066b8",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsComUsbBridgeSpeedGet"
+    },
+    {
+      "address": "0x80066cc",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsUSB_HIDPortGet"
+    },
+    {
+      "address": "0x80066e0",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsUSB_VCPPortGet"
+    },
+    {
+      "address": "0x80066f4",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsOptionalModulesGet"
+    },
+    {
+      "address": "0x8006708",
+      "size": 20,
+      "kind": "T",
+      "name": "HwSettingsDSMxBindGet"
+    },
+    {
+      "address": "0x800671c",
+      "size": 68,
+      "kind": "T",
+      "name": "ReceiverActivityInitialize"
+    },
+    {
+      "address": "0x8006760",
+      "size": 12,
+      "kind": "T",
+      "name": "ReceiverActivityHandle"
+    },
+    {
+      "address": "0x800676c",
+      "size": 20,
+      "kind": "T",
+      "name": "ReceiverActivityActiveGroupSet"
+    },
+    {
+      "address": "0x8006780",
+      "size": 20,
+      "kind": "T",
+      "name": "ReceiverActivityActiveChannelSet"
+    },
+    {
+      "address": "0x8006794",
+      "size": 68,
+      "kind": "T",
+      "name": "RateDesiredInitialize"
+    },
+    {
+      "address": "0x80067d8",
+      "size": 12,
+      "kind": "T",
+      "name": "RateDesiredHandle"
+    },
+    {
+      "address": "0x80067e4",
+      "size": 100,
+      "kind": "T",
+      "name": "TxPIDSettingsSetDefaults"
+    },
+    {
+      "address": "0x8006848",
+      "size": 68,
+      "kind": "T",
+      "name": "TxPIDSettingsInitialize"
+    },
+    {
+      "address": "0x800688c",
+      "size": 12,
+      "kind": "T",
+      "name": "TxPIDSettingsHandle"
+    },
+    {
+      "address": "0x8006898",
+      "size": 68,
+      "kind": "T",
+      "name": "Mpu6000SettingsInitialize"
+    },
+    {
+      "address": "0x80068dc",
+      "size": 12,
+      "kind": "T",
+      "name": "Mpu6000SettingsHandle"
+    },
+    {
+      "address": "0x80068e8",
+      "size": 36,
+      "kind": "t",
+      "name": "prvResetNextTaskUnblockTime"
+    },
+    {
+      "address": "0x800690c",
+      "size": 80,
+      "kind": "t",
+      "name": "prvAddCurrentTaskToDelayedList"
+    },
+    {
+      "address": "0x800695c",
+      "size": 420,
+      "kind": "T",
+      "name": "xTaskGenericCreate"
+    },
+    {
+      "address": "0x8006b00",
+      "size": 108,
+      "kind": "T",
+      "name": "vTaskStartScheduler"
+    },
+    {
+      "address": "0x8006b6c",
+      "size": 16,
+      "kind": "T",
+      "name": "vTaskSuspendAll"
+    },
+    {
+      "address": "0x8006b7c",
+      "size": 24,
+      "kind": "T",
+      "name": "xTaskGetTickCount"
+    },
+    {
+      "address": "0x8006b94",
+      "size": 20,
+      "kind": "T",
+      "name": "uxTaskGetRunTime"
+    },
+    {
+      "address": "0x8006ba8",
+      "size": 12,
+      "kind": "T",
+      "name": "xTaskGetIdleTaskHandle"
+    },
+    {
+      "address": "0x8006bb4",
+      "size": 252,
+      "kind": "T",
+      "name": "xTaskIncrementTick"
+    },
+    {
+      "address": "0x8006cb0",
+      "size": 188,
+      "kind": "T",
+      "name": "xTaskResumeAll"
+    },
+    {
+      "address": "0x8006d6c",
+      "size": 92,
+      "kind": "T",
+      "name": "vTaskDelayUntil"
+    },
+    {
+      "address": "0x8006dc8",
+      "size": 60,
+      "kind": "T",
+      "name": "vTaskDelay"
+    },
+    {
+      "address": "0x8006e04",
+      "size": 88,
+      "kind": "t",
+      "name": "prvIdleTask"
+    },
+    {
+      "address": "0x8006e5c",
+      "size": 172,
+      "kind": "T",
+      "name": "vTaskSwitchContext"
+    },
+    {
+      "address": "0x8006f08",
+      "size": 68,
+      "kind": "T",
+      "name": "vTaskPlaceOnEventList"
+    },
+    {
+      "address": "0x8006f4c",
+      "size": 108,
+      "kind": "T",
+      "name": "xTaskRemoveFromEventList"
+    },
+    {
+      "address": "0x8006fb8",
+      "size": 24,
+      "kind": "T",
+      "name": "vTaskSetTimeOutState"
+    },
+    {
+      "address": "0x8006fd0",
+      "size": 76,
+      "kind": "T",
+      "name": "xTaskCheckForTimeOut"
+    },
+    {
+      "address": "0x800701c",
+      "size": 12,
+      "kind": "T",
+      "name": "vTaskMissedYield"
+    },
+    {
+      "address": "0x8007028",
+      "size": 32,
+      "kind": "T",
+      "name": "uxTaskGetStackHighWaterMark"
+    },
+    {
+      "address": "0x8007048",
+      "size": 12,
+      "kind": "T",
+      "name": "xTaskGetCurrentTaskHandle"
+    },
+    {
+      "address": "0x8007054",
+      "size": 112,
+      "kind": "T",
+      "name": "vTaskPriorityInherit"
+    },
+    {
+      "address": "0x80070c4",
+      "size": 76,
+      "kind": "T",
+      "name": "vTaskPriorityDisinherit"
+    },
+    {
+      "address": "0x8007110",
+      "size": 476,
+      "kind": "T",
+      "name": "PIOS_ADC_Config"
+    },
+    {
+      "address": "0x80072ec",
+      "size": 124,
+      "kind": "T",
+      "name": "PIOS_ADC_Init"
+    },
+    {
+      "address": "0x8007368",
+      "size": 36,
+      "kind": "T",
+      "name": "PIOS_ADC_PinGet"
+    },
+    {
+      "address": "0x800738c",
+      "size": 32,
+      "kind": "T",
+      "name": "PIOS_ADC_PinGetVolt"
+    },
+    {
+      "address": "0x80073ac",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_ADC_SetQueue"
+    },
+    {
+      "address": "0x80073b8",
+      "size": 380,
+      "kind": "T",
+      "name": "PIOS_ADC_downsample_data"
+    },
+    {
+      "address": "0x8007534",
+      "size": 120,
+      "kind": "T",
+      "name": "PIOS_ADC_DMA_Handler"
+    },
+    {
+      "address": "0x80075ac",
+      "size": 20,
+      "kind": "T",
+      "name": "PIOS_BKP_ReadRegister"
+    },
+    {
+      "address": "0x80075c0",
+      "size": 20,
+      "kind": "T",
+      "name": "PIOS_BKP_WriteRegister"
+    },
+    {
+      "address": "0x80075d4",
+      "size": 44,
+      "kind": "T",
+      "name": "PIOS_BL_HELPER_FLASH_Read_Description"
+    },
+    {
+      "address": "0x8007600",
+      "size": 36,
+      "kind": "T",
+      "name": "PIOS_BL_HELPER_CRC_Memory_Calc"
+    },
+    {
+      "address": "0x8007624",
+      "size": 64,
+      "kind": "T",
+      "name": "PIOS_DELAY_Init"
+    },
+    {
+      "address": "0x8007664",
+      "size": 48,
+      "kind": "T",
+      "name": "PIOS_DELAY_WaituS"
+    },
+    {
+      "address": "0x8007694",
+      "size": 24,
+      "kind": "T",
+      "name": "PIOS_DELAY_GetuS"
+    },
+    {
+      "address": "0x80076ac",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_DELAY_GetRaw"
+    },
+    {
+      "address": "0x80076b8",
+      "size": 24,
+      "kind": "T",
+      "name": "PIOS_DELAY_DiffuS"
+    },
+    {
+      "address": "0x80076d0",
+      "size": 256,
+      "kind": "t",
+      "name": "PIOS_DSM_RxInCallback"
+    },
+    {
+      "address": "0x80077d0",
+      "size": 32,
+      "kind": "t",
+      "name": "PIOS_DSM_Get"
+    },
+    {
+      "address": "0x80077f0",
+      "size": 92,
+      "kind": "t",
+      "name": "PIOS_DSM_Supervisor"
+    },
+    {
+      "address": "0x800784c",
+      "size": 216,
+      "kind": "T",
+      "name": "PIOS_DSM_Init"
+    },
+    {
+      "address": "0x8007924",
+      "size": 36,
+      "kind": "t",
+      "name": "PIOS_EXTI_generic_irq_handler"
+    },
+    {
+      "address": "0x8007948",
+      "size": 96,
+      "kind": "T",
+      "name": "PIOS_EXTI_gpio_port_to_exti_source_port"
+    },
+    {
+      "address": "0x80079a8",
+      "size": 288,
+      "kind": "T",
+      "name": "PIOS_EXTI_Init"
+    },
+    {
+      "address": "0x8007ac8",
+      "size": 40,
+      "kind": "T",
+      "name": "EXTI0_IRQHandler"
+    },
+    {
+      "address": "0x8007ac8",
+      "size": 40,
+      "kind": "t",
+      "name": "PIOS_EXTI_0_irq_handler"
+    },
+    {
+      "address": "0x8007af0",
+      "size": 40,
+      "kind": "T",
+      "name": "EXTI1_IRQHandler"
+    },
+    {
+      "address": "0x8007af0",
+      "size": 40,
+      "kind": "t",
+      "name": "PIOS_EXTI_1_irq_handler"
+    },
+    {
+      "address": "0x8007b18",
+      "size": 40,
+      "kind": "T",
+      "name": "EXTI2_IRQHandler"
+    },
+    {
+      "address": "0x8007b18",
+      "size": 40,
+      "kind": "t",
+      "name": "PIOS_EXTI_2_irq_handler"
+    },
+    {
+      "address": "0x8007b40",
+      "size": 40,
+      "kind": "T",
+      "name": "EXTI3_IRQHandler"
+    },
+    {
+      "address": "0x8007b40",
+      "size": 40,
+      "kind": "t",
+      "name": "PIOS_EXTI_3_irq_handler"
+    },
+    {
+      "address": "0x8007b68",
+      "size": 40,
+      "kind": "T",
+      "name": "EXTI4_IRQHandler"
+    },
+    {
+      "address": "0x8007b68",
+      "size": 40,
+      "kind": "t",
+      "name": "PIOS_EXTI_4_irq_handler"
+    },
+    {
+      "address": "0x8007b90",
+      "size": 152,
+      "kind": "T",
+      "name": "EXTI9_5_IRQHandler"
+    },
+    {
+      "address": "0x8007b90",
+      "size": 152,
+      "kind": "t",
+      "name": "PIOS_EXTI_9_5_irq_handler"
+    },
+    {
+      "address": "0x8007c28",
+      "size": 196,
+      "kind": "T",
+      "name": "EXTI15_10_IRQHandler"
+    },
+    {
+      "address": "0x8007c28",
+      "size": 196,
+      "kind": "t",
+      "name": "PIOS_EXTI_15_10_irq_handler"
+    },
+    {
+      "address": "0x8007cec",
+      "size": 132,
+      "kind": "T",
+      "name": "PIOS_GPIO_Init"
+    },
+    {
+      "address": "0x8007d70",
+      "size": 40,
+      "kind": "T",
+      "name": "PIOS_IRQ_Disable"
+    },
+    {
+      "address": "0x8007d98",
+      "size": 40,
+      "kind": "T",
+      "name": "PIOS_IRQ_Enable"
+    },
+    {
+      "address": "0x8007dc0",
+      "size": 32,
+      "kind": "t",
+      "name": "PIOS_PPM_Get"
+    },
+    {
+      "address": "0x8007de0",
+      "size": 20,
+      "kind": "t",
+      "name": "PIOS_PPM_tim_overflow_cb"
+    },
+    {
+      "address": "0x8007df4",
+      "size": 80,
+      "kind": "t",
+      "name": "PIOS_PPM_Supervisor"
+    },
+    {
+      "address": "0x8007e44",
+      "size": 64,
+      "kind": "t",
+      "name": "PIOS_PPM_Get_Semaphore"
+    },
+    {
+      "address": "0x8007e84",
+      "size": 272,
+      "kind": "t",
+      "name": "PIOS_PPM_tim_edge_cb"
+    },
+    {
+      "address": "0x8007f94",
+      "size": 272,
+      "kind": "T",
+      "name": "PIOS_PPM_Init"
+    },
+    {
+      "address": "0x80080a4",
+      "size": 32,
+      "kind": "t",
+      "name": "PIOS_PWM_Get"
+    },
+    {
+      "address": "0x80080c4",
+      "size": 68,
+      "kind": "t",
+      "name": "PIOS_PWM_tim_overflow_cb"
+    },
+    {
+      "address": "0x8008108",
+      "size": 164,
+      "kind": "t",
+      "name": "PIOS_PWM_tim_edge_cb"
+    },
+    {
+      "address": "0x80081ac",
+      "size": 228,
+      "kind": "T",
+      "name": "PIOS_PWM_Init"
+    },
+    {
+      "address": "0x8008290",
+      "size": 44,
+      "kind": "T",
+      "name": "PIOS_RTC_RegisterTickCallback"
+    },
+    {
+      "address": "0x80082bc",
+      "size": 68,
+      "kind": "T",
+      "name": "PIOS_RTC_irq_handler"
+    },
+    {
+      "address": "0x8008300",
+      "size": 408,
+      "kind": "T",
+      "name": "PIOS_Servo_Init"
+    },
+    {
+      "address": "0x8008498",
+      "size": 120,
+      "kind": "T",
+      "name": "PIOS_Servo_SetHz"
+    },
+    {
+      "address": "0x8008510",
+      "size": 148,
+      "kind": "T",
+      "name": "PIOS_Servo_Set"
+    },
+    {
+      "address": "0x80085a4",
+      "size": 204,
+      "kind": "T",
+      "name": "PIOS_Servo_Update"
+    },
+    {
+      "address": "0x8008670",
+      "size": 164,
+      "kind": "T",
+      "name": "PIOS_Servo_SetBankMode"
+    },
+    {
+      "address": "0x8008714",
+      "size": 32,
+      "kind": "T",
+      "name": "PIOS_Servo_GetPinBank"
+    },
+    {
+      "address": "0x8008734",
+      "size": 404,
+      "kind": "T",
+      "name": "PIOS_SPI_Init"
+    },
+    {
+      "address": "0x80088c8",
+      "size": 40,
+      "kind": "T",
+      "name": "PIOS_SPI_TransferByte"
+    },
+    {
+      "address": "0x80088f0",
+      "size": 68,
+      "kind": "T",
+      "name": "PIOS_SYS_Reset"
+    },
+    {
+      "address": "0x8008934",
+      "size": 32,
+      "kind": "T",
+      "name": "NVIC_Configuration"
+    },
+    {
+      "address": "0x8008954",
+      "size": 60,
+      "kind": "T",
+      "name": "PIOS_SYS_Init"
+    },
+    {
+      "address": "0x8008990",
+      "size": 428,
+      "kind": "t",
+      "name": "PIOS_TIM_generic_irq_handler"
+    },
+    {
+      "address": "0x8008b3c",
+      "size": 108,
+      "kind": "T",
+      "name": "PIOS_TIM_InitClock"
+    },
+    {
+      "address": "0x8008ba8",
+      "size": 164,
+      "kind": "T",
+      "name": "PIOS_TIM_InitChannels"
+    },
+    {
+      "address": "0x8008c4c",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_TIM_1_UP_irq_handler"
+    },
+    {
+      "address": "0x8008c4c",
+      "size": 12,
+      "kind": "T",
+      "name": "TIM1_UP_IRQHandler"
+    },
+    {
+      "address": "0x8008c58",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_TIM_1_CC_irq_handler"
+    },
+    {
+      "address": "0x8008c58",
+      "size": 12,
+      "kind": "T",
+      "name": "TIM1_CC_IRQHandler"
+    },
+    {
+      "address": "0x8008c64",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_TIM_3_irq_handler"
+    },
+    {
+      "address": "0x8008c64",
+      "size": 12,
+      "kind": "T",
+      "name": "TIM3_IRQHandler"
+    },
+    {
+      "address": "0x8008c70",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_TIM_4_irq_handler"
+    },
+    {
+      "address": "0x8008c70",
+      "size": 12,
+      "kind": "T",
+      "name": "TIM4_IRQHandler"
+    },
+    {
+      "address": "0x8008c7c",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_USART_RegisterRxCallback"
+    },
+    {
+      "address": "0x8008c94",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_USART_RegisterTxCallback"
+    },
+    {
+      "address": "0x8008cac",
+      "size": 28,
+      "kind": "t",
+      "name": "PIOS_USART_RxStart"
+    },
+    {
+      "address": "0x8008cc8",
+      "size": 28,
+      "kind": "t",
+      "name": "PIOS_USART_TxStart"
+    },
+    {
+      "address": "0x8008ce4",
+      "size": 44,
+      "kind": "t",
+      "name": "PIOS_USART_ChangeBaud"
+    },
+    {
+      "address": "0x8008d10",
+      "size": 180,
+      "kind": "t",
+      "name": "PIOS_USART_generic_irq_handler"
+    },
+    {
+      "address": "0x8008dc4",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_USART_1_irq_handler"
+    },
+    {
+      "address": "0x8008dc4",
+      "size": 12,
+      "kind": "T",
+      "name": "USART1_IRQHandler"
+    },
+    {
+      "address": "0x8008dd0",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_USART_2_irq_handler"
+    },
+    {
+      "address": "0x8008dd0",
+      "size": 12,
+      "kind": "T",
+      "name": "USART2_IRQHandler"
+    },
+    {
+      "address": "0x8008ddc",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_USART_3_irq_handler"
+    },
+    {
+      "address": "0x8008ddc",
+      "size": 12,
+      "kind": "T",
+      "name": "USART3_IRQHandler"
+    },
+    {
+      "address": "0x8008de8",
+      "size": 240,
+      "kind": "T",
+      "name": "PIOS_USART_Init"
+    },
+    {
+      "address": "0x8008ed8",
+      "size": 20,
+      "kind": "T",
+      "name": "PIOS_USB_ChangeConnectionState"
+    },
+    {
+      "address": "0x8008eec",
+      "size": 100,
+      "kind": "T",
+      "name": "PIOS_USB_Reenumerate"
+    },
+    {
+      "address": "0x8008f50",
+      "size": 92,
+      "kind": "T",
+      "name": "PIOS_USB_Init"
+    },
+    {
+      "address": "0x8008fac",
+      "size": 52,
+      "kind": "T",
+      "name": "PIOS_USB_CableConnected"
+    },
+    {
+      "address": "0x8008fe0",
+      "size": 56,
+      "kind": "T",
+      "name": "PIOS_USB_CheckAvailable"
+    },
+    {
+      "address": "0x8009018",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_RegisterRxCallback"
+    },
+    {
+      "address": "0x8009030",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_RegisterTxCallback"
+    },
+    {
+      "address": "0x8009048",
+      "size": 44,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_Available"
+    },
+    {
+      "address": "0x8009074",
+      "size": 72,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_RxStart"
+    },
+    {
+      "address": "0x80090bc",
+      "size": 80,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_CTRL_EP_IN_Callback"
+    },
+    {
+      "address": "0x800910c",
+      "size": 52,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_TxStart"
+    },
+    {
+      "address": "0x8009140",
+      "size": 28,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_DATA_EP_IN_Callback"
+    },
+    {
+      "address": "0x800915c",
+      "size": 184,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_DATA_EP_OUT_Callback"
+    },
+    {
+      "address": "0x8009214",
+      "size": 120,
+      "kind": "T",
+      "name": "PIOS_USB_CDC_Init"
+    },
+    {
+      "address": "0x800928c",
+      "size": 56,
+      "kind": "T",
+      "name": "PIOS_USB_CDC_SetControlLineState"
+    },
+    {
+      "address": "0x80092c4",
+      "size": 48,
+      "kind": "T",
+      "name": "PIOS_USB_CDC_SetLineCoding"
+    },
+    {
+      "address": "0x80092f4",
+      "size": 48,
+      "kind": "T",
+      "name": "PIOS_USB_CDC_GetLineCoding"
+    },
+    {
+      "address": "0x8009324",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_USB_HID_RegisterRxCallback"
+    },
+    {
+      "address": "0x800933c",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_USB_HID_RegisterTxCallback"
+    },
+    {
+      "address": "0x8009354",
+      "size": 72,
+      "kind": "t",
+      "name": "PIOS_USB_HID_RxStart"
+    },
+    {
+      "address": "0x800939c",
+      "size": 52,
+      "kind": "t",
+      "name": "PIOS_USB_HID_TxStart"
+    },
+    {
+      "address": "0x80093d0",
+      "size": 44,
+      "kind": "t",
+      "name": "PIOS_USB_HID_EP_IN_Callback"
+    },
+    {
+      "address": "0x80093fc",
+      "size": 148,
+      "kind": "t",
+      "name": "PIOS_USB_HID_EP_OUT_Callback"
+    },
+    {
+      "address": "0x8009490",
+      "size": 104,
+      "kind": "T",
+      "name": "PIOS_USB_HID_Init"
+    },
+    {
+      "address": "0x80094f8",
+      "size": 196,
+      "kind": "T",
+      "name": "USB_LP_CAN1_RX0_IRQHandler"
+    },
+    {
+      "address": "0x80095bc",
+      "size": 40,
+      "kind": "T",
+      "name": "PowerOn"
+    },
+    {
+      "address": "0x80095e4",
+      "size": 40,
+      "kind": "T",
+      "name": "Suspend"
+    },
+    {
+      "address": "0x800960c",
+      "size": 28,
+      "kind": "T",
+      "name": "Leave_LowPowerMode"
+    },
+    {
+      "address": "0x8009628",
+      "size": 32,
+      "kind": "T",
+      "name": "Resume_Init"
+    },
+    {
+      "address": "0x8009648",
+      "size": 132,
+      "kind": "T",
+      "name": "Resume"
+    },
+    {
+      "address": "0x80096cc",
+      "size": 44,
+      "kind": "t",
+      "name": "PIOS_USB_RCTX_EP_IN_Callback"
+    },
+    {
+      "address": "0x80096f8",
+      "size": 80,
+      "kind": "T",
+      "name": "PIOS_USB_RCTX_Init"
+    },
+    {
+      "address": "0x8009748",
+      "size": 164,
+      "kind": "T",
+      "name": "PIOS_USB_RCTX_Update"
+    },
+    {
+      "address": "0x80097ec",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_SetDeviceAddress"
+    },
+    {
+      "address": "0x80097f8",
+      "size": 144,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_Data_Setup"
+    },
+    {
+      "address": "0x8009888",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_GetProtocolValue"
+    },
+    {
+      "address": "0x80098a0",
+      "size": 32,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_GetStringDescriptor"
+    },
+    {
+      "address": "0x80098c0",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_GetConfigDescriptor"
+    },
+    {
+      "address": "0x80098cc",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_GetDeviceDescriptor"
+    },
+    {
+      "address": "0x80098d8",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_GetHIDDescriptor"
+    },
+    {
+      "address": "0x80098e4",
+      "size": 12,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_GetReportDescriptor"
+    },
+    {
+      "address": "0x80098f0",
+      "size": 272,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_Reset"
+    },
+    {
+      "address": "0x8009a00",
+      "size": 32,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_Init"
+    },
+    {
+      "address": "0x8009a20",
+      "size": 32,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_SetConfiguration"
+    },
+    {
+      "address": "0x8009a40",
+      "size": 56,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_NoData_Setup"
+    },
+    {
+      "address": "0x8009a78",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_USBHOOK_RegisterDevice"
+    },
+    {
+      "address": "0x8009a84",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_USBHOOK_RegisterConfig"
+    },
+    {
+      "address": "0x8009a90",
+      "size": 24,
+      "kind": "T",
+      "name": "PIOS_USBHOOK_RegisterString"
+    },
+    {
+      "address": "0x8009aa8",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_USB_HID_RegisterHidDescriptor"
+    },
+    {
+      "address": "0x8009ab4",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_USB_HID_RegisterHidReport"
+    },
+    {
+      "address": "0x8009ac0",
+      "size": 76,
+      "kind": "T",
+      "name": "PIOS_WDG_Init"
+    },
+    {
+      "address": "0x8009b0c",
+      "size": 32,
+      "kind": "T",
+      "name": "PIOS_WDG_RegisterFlag"
+    },
+    {
+      "address": "0x8009b2c",
+      "size": 52,
+      "kind": "T",
+      "name": "PIOS_WDG_UpdateFlag"
+    },
+    {
+      "address": "0x8009b60",
+      "size": 20,
+      "kind": "T",
+      "name": "NVIC_PriorityGroupConfig"
+    },
+    {
+      "address": "0x8009b74",
+      "size": 108,
+      "kind": "T",
+      "name": "NVIC_Init"
+    },
+    {
+      "address": "0x8009be0",
+      "size": 20,
+      "kind": "T",
+      "name": "NVIC_SetVectorTable"
+    },
+    {
+      "address": "0x8009bf4",
+      "size": 24,
+      "kind": "T",
+      "name": "SysTick_CLKSourceConfig"
+    },
+    {
+      "address": "0x8009c0c",
+      "size": 92,
+      "kind": "T",
+      "name": "ADC_DeInit"
+    },
+    {
+      "address": "0x8009c68",
+      "size": 72,
+      "kind": "T",
+      "name": "ADC_Init"
+    },
+    {
+      "address": "0x8009cb0",
+      "size": 24,
+      "kind": "T",
+      "name": "ADC_TempSensorVrefintCmd"
+    },
+    {
+      "address": "0x8009cc8",
+      "size": 28,
+      "kind": "T",
+      "name": "BKP_WriteBackupRegister"
+    },
+    {
+      "address": "0x8009ce4",
+      "size": 32,
+      "kind": "T",
+      "name": "BKP_ReadBackupRegister"
+    },
+    {
+      "address": "0x8009d04",
+      "size": 20,
+      "kind": "T",
+      "name": "BKP_ClearFlag"
+    },
+    {
+      "address": "0x8009d18",
+      "size": 12,
+      "kind": "T",
+      "name": "CRC_ResetDR"
+    },
+    {
+      "address": "0x8009d24",
+      "size": 28,
+      "kind": "T",
+      "name": "CRC_CalcBlockCRC"
+    },
+    {
+      "address": "0x8009d40",
+      "size": 12,
+      "kind": "T",
+      "name": "CRC_GetCRC"
+    },
+    {
+      "address": "0x8009d4c",
+      "size": 24,
+      "kind": "T",
+      "name": "DBGMCU_Config"
+    },
+    {
+      "address": "0x8009d64",
+      "size": 28,
+      "kind": "T",
+      "name": "DMA_GetFlagStatus"
+    },
+    {
+      "address": "0x8009d80",
+      "size": 20,
+      "kind": "T",
+      "name": "DMA_ClearFlag"
+    },
+    {
+      "address": "0x8009d94",
+      "size": 120,
+      "kind": "T",
+      "name": "EXTI_Init"
+    },
+    {
+      "address": "0x8009e0c",
+      "size": 28,
+      "kind": "T",
+      "name": "EXTI_GetITStatus"
+    },
+    {
+      "address": "0x8009e28",
+      "size": 12,
+      "kind": "T",
+      "name": "EXTI_ClearITPendingBit"
+    },
+    {
+      "address": "0x8009e34",
+      "size": 96,
+      "kind": "T",
+      "name": "GPIO_PinRemapConfig"
+    },
+    {
+      "address": "0x8009e94",
+      "size": 12,
+      "kind": "T",
+      "name": "IWDG_WriteAccessCmd"
+    },
+    {
+      "address": "0x8009ea0",
+      "size": 12,
+      "kind": "T",
+      "name": "IWDG_SetPrescaler"
+    },
+    {
+      "address": "0x8009eac",
+      "size": 12,
+      "kind": "T",
+      "name": "IWDG_SetReload"
+    },
+    {
+      "address": "0x8009eb8",
+      "size": 16,
+      "kind": "T",
+      "name": "IWDG_ReloadCounter"
+    },
+    {
+      "address": "0x8009ec8",
+      "size": 16,
+      "kind": "T",
+      "name": "IWDG_Enable"
+    },
+    {
+      "address": "0x8009ed8",
+      "size": 12,
+      "kind": "T",
+      "name": "PWR_BackupAccessCmd"
+    },
+    {
+      "address": "0x8009ee4",
+      "size": 12,
+      "kind": "T",
+      "name": "RCC_USBCLKConfig"
+    },
+    {
+      "address": "0x8009ef0",
+      "size": 20,
+      "kind": "T",
+      "name": "RCC_ADCCLKConfig"
+    },
+    {
+      "address": "0x8009f04",
+      "size": 16,
+      "kind": "T",
+      "name": "RCC_RTCCLKConfig"
+    },
+    {
+      "address": "0x8009f14",
+      "size": 12,
+      "kind": "T",
+      "name": "RCC_RTCCLKCmd"
+    },
+    {
+      "address": "0x8009f20",
+      "size": 136,
+      "kind": "T",
+      "name": "RCC_GetClocksFreq"
+    },
+    {
+      "address": "0x8009fa8",
+      "size": 24,
+      "kind": "T",
+      "name": "RCC_AHBPeriphClockCmd"
+    },
+    {
+      "address": "0x8009fc0",
+      "size": 24,
+      "kind": "T",
+      "name": "RCC_APB2PeriphClockCmd"
+    },
+    {
+      "address": "0x8009fd8",
+      "size": 24,
+      "kind": "T",
+      "name": "RCC_APB1PeriphClockCmd"
+    },
+    {
+      "address": "0x8009ff0",
+      "size": 24,
+      "kind": "T",
+      "name": "RCC_APB2PeriphResetCmd"
+    },
+    {
+      "address": "0x800a008",
+      "size": 24,
+      "kind": "T",
+      "name": "RCC_APB1PeriphResetCmd"
+    },
+    {
+      "address": "0x800a020",
+      "size": 24,
+      "kind": "T",
+      "name": "RTC_ITConfig"
+    },
+    {
+      "address": "0x800a038",
+      "size": 20,
+      "kind": "T",
+      "name": "RTC_EnterConfigMode"
+    },
+    {
+      "address": "0x800a04c",
+      "size": 20,
+      "kind": "T",
+      "name": "RTC_ExitConfigMode"
+    },
+    {
+      "address": "0x800a060",
+      "size": 32,
+      "kind": "T",
+      "name": "RTC_SetCounter"
+    },
+    {
+      "address": "0x800a080",
+      "size": 32,
+      "kind": "T",
+      "name": "RTC_SetPrescaler"
+    },
+    {
+      "address": "0x800a0a0",
+      "size": 16,
+      "kind": "T",
+      "name": "RTC_WaitForLastTask"
+    },
+    {
+      "address": "0x800a0b0",
+      "size": 28,
+      "kind": "T",
+      "name": "RTC_WaitForSynchro"
+    },
+    {
+      "address": "0x800a0cc",
+      "size": 32,
+      "kind": "T",
+      "name": "RTC_GetITStatus"
+    },
+    {
+      "address": "0x800a0ec",
+      "size": 20,
+      "kind": "T",
+      "name": "RTC_ClearITPendingBit"
+    },
+    {
+      "address": "0x800a100",
+      "size": 104,
+      "kind": "t",
+      "name": "TI1_Config"
+    },
+    {
+      "address": "0x800a168",
+      "size": 120,
+      "kind": "t",
+      "name": "TI2_Config"
+    },
+    {
+      "address": "0x800a1e0",
+      "size": 148,
+      "kind": "T",
+      "name": "TIM_TimeBaseInit"
+    },
+    {
+      "address": "0x800a274",
+      "size": 136,
+      "kind": "T",
+      "name": "TIM_OC1Init"
+    },
+    {
+      "address": "0x800a2fc",
+      "size": 136,
+      "kind": "T",
+      "name": "TIM_OC2Init"
+    },
+    {
+      "address": "0x800a384",
+      "size": 132,
+      "kind": "T",
+      "name": "TIM_OC3Init"
+    },
+    {
+      "address": "0x800a408",
+      "size": 104,
+      "kind": "T",
+      "name": "TIM_OC4Init"
+    },
+    {
+      "address": "0x800a470",
+      "size": 312,
+      "kind": "T",
+      "name": "TIM_ICInit"
+    },
+    {
+      "address": "0x800a5a8",
+      "size": 172,
+      "kind": "T",
+      "name": "USART_Init"
+    },
+    {
+      "address": "0x800a654",
+      "size": 36,
+      "kind": "T",
+      "name": "Standard_GetConfiguration"
+    },
+    {
+      "address": "0x800a678",
+      "size": 36,
+      "kind": "T",
+      "name": "Standard_GetInterface"
+    },
+    {
+      "address": "0x800a69c",
+      "size": 144,
+      "kind": "T",
+      "name": "Standard_GetStatus"
+    },
+    {
+      "address": "0x800a72c",
+      "size": 172,
+      "kind": "t",
+      "name": "DataStageIn"
+    },
+    {
+      "address": "0x800a7d8",
+      "size": 56,
+      "kind": "T",
+      "name": "Standard_SetConfiguration"
+    },
+    {
+      "address": "0x800a810",
+      "size": 72,
+      "kind": "T",
+      "name": "Standard_SetInterface"
+    },
+    {
+      "address": "0x800a858",
+      "size": 216,
+      "kind": "T",
+      "name": "Standard_ClearFeature"
+    },
+    {
+      "address": "0x800a930",
+      "size": 140,
+      "kind": "T",
+      "name": "Standard_SetEndPointFeature"
+    },
+    {
+      "address": "0x800a9bc",
+      "size": 36,
+      "kind": "T",
+      "name": "Standard_SetDeviceFeature"
+    },
+    {
+      "address": "0x800a9e0",
+      "size": 28,
+      "kind": "T",
+      "name": "Standard_GetDescriptorData"
+    },
+    {
+      "address": "0x800a9fc",
+      "size": 68,
+      "kind": "T",
+      "name": "Post0_Process"
+    },
+    {
+      "address": "0x800aa40",
+      "size": 732,
+      "kind": "T",
+      "name": "Setup0_Process"
+    },
+    {
+      "address": "0x800ad1c",
+      "size": 204,
+      "kind": "T",
+      "name": "Out0_Process"
+    },
+    {
+      "address": "0x800ade8",
+      "size": 64,
+      "kind": "T",
+      "name": "SetDeviceAddress"
+    },
+    {
+      "address": "0x800ae28",
+      "size": 92,
+      "kind": "T",
+      "name": "In0_Process"
+    },
+    {
+      "address": "0x800ae84",
+      "size": 52,
+      "kind": "T",
+      "name": "USB_Init"
+    },
+    {
+      "address": "0x800aeb8",
+      "size": 364,
+      "kind": "T",
+      "name": "CTR_LP"
+    },
+    {
+      "address": "0x800b024",
+      "size": 16,
+      "kind": "T",
+      "name": "SetBTABLE"
+    },
+    {
+      "address": "0x800b034",
+      "size": 32,
+      "kind": "T",
+      "name": "SetEPTxAddr"
+    },
+    {
+      "address": "0x800b054",
+      "size": 32,
+      "kind": "T",
+      "name": "SetEPRxAddr"
+    },
+    {
+      "address": "0x800b074",
+      "size": 32,
+      "kind": "T",
+      "name": "GetEPTxAddr"
+    },
+    {
+      "address": "0x800b094",
+      "size": 32,
+      "kind": "T",
+      "name": "GetEPRxAddr"
+    },
+    {
+      "address": "0x800b0b4",
+      "size": 28,
+      "kind": "T",
+      "name": "SetEPTxCount"
+    },
+    {
+      "address": "0x800b0d0",
+      "size": 64,
+      "kind": "T",
+      "name": "SetEPRxCount"
+    },
+    {
+      "address": "0x800b110",
+      "size": 32,
+      "kind": "T",
+      "name": "GetEPRxCount"
+    },
+    {
+      "address": "0x800b130",
+      "size": 32,
+      "kind": "T",
+      "name": "USB_SIL_Init"
+    },
+    {
+      "address": "0x800b150",
+      "size": 24,
+      "kind": "t",
+      "name": "prvPortStartFirstTask"
+    },
+    {
+      "address": "0x800b16c",
+      "size": 28,
+      "kind": "T",
+      "name": "pxPortInitialiseStack"
+    },
+    {
+      "address": "0x800b188",
+      "size": 36,
+      "kind": "T",
+      "name": "vPortSVCHandler"
+    },
+    {
+      "address": "0x800b1a8",
+      "size": 0,
+      "kind": "t",
+      "name": "pxCurrentTCBConst2"
+    },
+    {
+      "address": "0x800b1ac",
+      "size": 24,
+      "kind": "T",
+      "name": "vPortYield"
+    },
+    {
+      "address": "0x800b1c4",
+      "size": 28,
+      "kind": "T",
+      "name": "vPortEnterCritical"
+    },
+    {
+      "address": "0x800b1e0",
+      "size": 20,
+      "kind": "T",
+      "name": "vPortExitCritical"
+    },
+    {
+      "address": "0x800b1f4",
+      "size": 68,
+      "kind": "T",
+      "name": "xPortPendSVHandler"
+    },
+    {
+      "address": "0x800b234",
+      "size": 0,
+      "kind": "t",
+      "name": "pxCurrentTCBConst"
+    },
+    {
+      "address": "0x800b238",
+      "size": 36,
+      "kind": "T",
+      "name": "xPortSysTickHandler"
+    },
+    {
+      "address": "0x800b25c",
+      "size": 24,
+      "kind": "W",
+      "name": "vPortSetupTimerInterrupt"
+    },
+    {
+      "address": "0x800b274",
+      "size": 48,
+      "kind": "T",
+      "name": "xPortStartScheduler"
+    },
+    {
+      "address": "0x800b2a4",
+      "size": 104,
+      "kind": "T",
+      "name": "pvPortMallocGeneric"
+    },
+    {
+      "address": "0x800b30c",
+      "size": 24,
+      "kind": "T",
+      "name": "xPortGetFreeHeapSize"
+    },
+    {
+      "address": "0x800b324",
+      "size": 28,
+      "kind": "T",
+      "name": "xPortIncreaseHeapSize"
+    },
+    {
+      "address": "0x800b340",
+      "size": 40,
+      "kind": "t",
+      "name": "PIOS_ADXL345_Validate"
+    },
+    {
+      "address": "0x800b368",
+      "size": 56,
+      "kind": "t",
+      "name": "PIOS_ADXL345_ClaimBus"
+    },
+    {
+      "address": "0x800b3a0",
+      "size": 52,
+      "kind": "t",
+      "name": "PIOS_ADXL345_ReleaseBus"
+    },
+    {
+      "address": "0x800b3d4",
+      "size": 92,
+      "kind": "T",
+      "name": "PIOS_ADXL345_SelectRate"
+    },
+    {
+      "address": "0x800b430",
+      "size": 96,
+      "kind": "T",
+      "name": "PIOS_ADXL345_SetRange"
+    },
+    {
+      "address": "0x800b490",
+      "size": 160,
+      "kind": "T",
+      "name": "PIOS_ADXL345_Init"
+    },
+    {
+      "address": "0x800b530",
+      "size": 104,
+      "kind": "T",
+      "name": "PIOS_ADXL345_Test"
+    },
+    {
+      "address": "0x800b598",
+      "size": 100,
+      "kind": "T",
+      "name": "PIOS_ADXL345_FifoElements"
+    },
+    {
+      "address": "0x800b5fc",
+      "size": 140,
+      "kind": "T",
+      "name": "PIOS_ADXL345_Read"
+    },
+    {
+      "address": "0x800b688",
+      "size": 212,
+      "kind": "T",
+      "name": "PIOS_ADXL345_ReadAndAccumulateSamples"
+    },
+    {
+      "address": "0x800b75c",
+      "size": 40,
+      "kind": "t",
+      "name": "PIOS_MPU6000_Validate"
+    },
+    {
+      "address": "0x800b784",
+      "size": 56,
+      "kind": "T",
+      "name": "PIOS_MPU6000_driver_get_scale"
+    },
+    {
+      "address": "0x800b7bc",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_MPU6000_driver_get_queue"
+    },
+    {
+      "address": "0x800b7c8",
+      "size": 48,
+      "kind": "t",
+      "name": "PIOS_MPU6000_ReleaseBus"
+    },
+    {
+      "address": "0x800b7f8",
+      "size": 52,
+      "kind": "t",
+      "name": "PIOS_MPU6000_ReleaseBusISR"
+    },
+    {
+      "address": "0x800b82c",
+      "size": 20,
+      "kind": "t",
+      "name": "PIOS_MPU6000_SetSpeed.part.1"
+    },
+    {
+      "address": "0x800b840",
+      "size": 80,
+      "kind": "t",
+      "name": "PIOS_MPU6000_ClaimBus"
+    },
+    {
+      "address": "0x800b890",
+      "size": 84,
+      "kind": "t",
+      "name": "PIOS_MPU6000_SetReg"
+    },
+    {
+      "address": "0x800b8e4",
+      "size": 60,
+      "kind": "t",
+      "name": "PIOS_MPU6000_GetReg"
+    },
+    {
+      "address": "0x800b920",
+      "size": 96,
+      "kind": "T",
+      "name": "PIOS_MPU6000_ConfigureRanges"
+    },
+    {
+      "address": "0x800b980",
+      "size": 96,
+      "kind": "T",
+      "name": "PIOS_MPU6000_DummyReadGyros"
+    },
+    {
+      "address": "0x800b9e0",
+      "size": 272,
+      "kind": "T",
+      "name": "PIOS_MPU6000_Init"
+    },
+    {
+      "address": "0x800baf0",
+      "size": 440,
+      "kind": "T",
+      "name": "PIOS_MPU6000_IRQHandler"
+    },
+    {
+      "address": "0x800bca8",
+      "size": 40,
+      "kind": "T",
+      "name": "PIOS_RCVR_Init"
+    },
+    {
+      "address": "0x800bcd0",
+      "size": 44,
+      "kind": "T",
+      "name": "PIOS_RCVR_Read"
+    },
+    {
+      "address": "0x800bcfc",
+      "size": 32,
+      "kind": "t",
+      "name": "PIOS_SBus_Get"
+    },
+    {
+      "address": "0x800bd1c",
+      "size": 92,
+      "kind": "t",
+      "name": "PIOS_SBus_Supervisor"
+    },
+    {
+      "address": "0x800bd78",
+      "size": 476,
+      "kind": "t",
+      "name": "PIOS_SBus_RxInCallback"
+    },
+    {
+      "address": "0x800bf54",
+      "size": 124,
+      "kind": "T",
+      "name": "PIOS_SBus_Init"
+    },
+    {
+      "address": "0x800bfd0",
+      "size": 36,
+      "kind": "T",
+      "name": "GetCurrentFrameType"
+    },
+    {
+      "address": "0x800bff4",
+      "size": 432,
+      "kind": "T",
+      "name": "configuration_check"
+    },
+    {
+      "address": "0x800c1a4",
+      "size": 76,
+      "kind": "T",
+      "name": "SANITYCHECK_AttachHook"
+    },
+    {
+      "address": "0x800c1f0",
+      "size": 264,
+      "kind": "T",
+      "name": "Quaternion2RPY"
+    },
+    {
+      "address": "0x800c2f8",
+      "size": 320,
+      "kind": "T",
+      "name": "RPY2Quaternion"
+    },
+    {
+      "address": "0x800c438",
+      "size": 60,
+      "kind": "T",
+      "name": "sin_lookup_deg"
+    },
+    {
+      "address": "0x800c474",
+      "size": 20,
+      "kind": "T",
+      "name": "cos_lookup_deg"
+    },
+    {
+      "address": "0x800c488",
+      "size": 276,
+      "kind": "T",
+      "name": "pid_apply"
+    },
+    {
+      "address": "0x800c59c",
+      "size": 336,
+      "kind": "T",
+      "name": "pid_apply_setpoint"
+    },
+    {
+      "address": "0x800c6ec",
+      "size": 44,
+      "kind": "T",
+      "name": "pid_configure_derivative"
+    },
+    {
+      "address": "0x800c718",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_FLASHFS_Logfs_validate"
+    },
+    {
+      "address": "0x800c730",
+      "size": 92,
+      "kind": "t",
+      "name": "logfs_activate_arena"
+    },
+    {
+      "address": "0x800c78c",
+      "size": 132,
+      "kind": "t",
+      "name": "logfs_object_find_next"
+    },
+    {
+      "address": "0x800c810",
+      "size": 108,
+      "kind": "t",
+      "name": "logfs_mount_log.part.2"
+    },
+    {
+      "address": "0x800c87c",
+      "size": 276,
+      "kind": "T",
+      "name": "PIOS_FLASHFS_Logfs_Init"
+    },
+    {
+      "address": "0x800c990",
+      "size": 776,
+      "kind": "T",
+      "name": "PIOS_FLASHFS_ObjSave"
+    },
+    {
+      "address": "0x800cc98",
+      "size": 40,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_Validate"
+    },
+    {
+      "address": "0x800ccc0",
+      "size": 184,
+      "kind": "T",
+      "name": "PIOS_Flash_Jedec_Init"
+    },
+    {
+      "address": "0x800cd78",
+      "size": 108,
+      "kind": "t",
+      "name": "write_current_buffer"
+    },
+    {
+      "address": "0x800cde4",
+      "size": 228,
+      "kind": "T",
+      "name": "PIOS_DEBUGLOG_UAVObject"
+    },
+    {
+      "address": "0x800cec8",
+      "size": 24,
+      "kind": "T",
+      "name": "PIOS_IAP_ReadBootCmd"
+    },
+    {
+      "address": "0x800cee0",
+      "size": 24,
+      "kind": "T",
+      "name": "PIOS_IAP_WriteBootCmd"
+    },
+    {
+      "address": "0x800cef8",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_COM_validate"
+    },
+    {
+      "address": "0x800cf10",
+      "size": 108,
+      "kind": "t",
+      "name": "PIOS_COM_TxOutCallback"
+    },
+    {
+      "address": "0x800cf7c",
+      "size": 112,
+      "kind": "t",
+      "name": "PIOS_COM_RxInCallback"
+    },
+    {
+      "address": "0x800cfec",
+      "size": 308,
+      "kind": "T",
+      "name": "PIOS_COM_Init"
+    },
+    {
+      "address": "0x800d120",
+      "size": 12,
+      "kind": "T",
+      "name": "PIOS_CRC_updateByte"
+    },
+    {
+      "address": "0x800d12c",
+      "size": 24,
+      "kind": "T",
+      "name": "PIOS_CRC_updateCRC"
+    },
+    {
+      "address": "0x800d144",
+      "size": 104,
+      "kind": "T",
+      "name": "PIOS_DELTATIME_GetAverageSeconds"
+    },
+    {
+      "address": "0x800d1ac",
+      "size": 16,
+      "kind": "T",
+      "name": "PIOS_LED_Init"
+    },
+    {
+      "address": "0x800d1bc",
+      "size": 16,
+      "kind": "T",
+      "name": "PIOS_LED_On"
+    },
+    {
+      "address": "0x800d1cc",
+      "size": 16,
+      "kind": "T",
+      "name": "PIOS_LED_Off"
+    },
+    {
+      "address": "0x800d1dc",
+      "size": 16,
+      "kind": "T",
+      "name": "PIOS_LED_Toggle"
+    },
+    {
+      "address": "0x800d1ec",
+      "size": 56,
+      "kind": "T",
+      "name": "PIOS_USB_DESC_HID_CDC_Init"
+    },
+    {
+      "address": "0x800d224",
+      "size": 92,
+      "kind": "T",
+      "name": "PIOS_TASK_MONITOR_Initialize"
+    },
+    {
+      "address": "0x800d280",
+      "size": 68,
+      "kind": "T",
+      "name": "PIOS_TASK_MONITOR_RegisterTask"
+    },
+    {
+      "address": "0x800d2c4",
+      "size": 76,
+      "kind": "T",
+      "name": "PIOS_TASK_MONITOR_GetIdlePercentage"
+    },
+    {
+      "address": "0x800d310",
+      "size": 376,
+      "kind": "t",
+      "name": "runNextCallback"
+    },
+    {
+      "address": "0x800d488",
+      "size": 44,
+      "kind": "T",
+      "name": "PIOS_CALLBACKSCHEDULER_Initialize"
+    },
+    {
+      "address": "0x800d4b4",
+      "size": 120,
+      "kind": "T",
+      "name": "PIOS_CALLBACKSCHEDULER_Start"
+    },
+    {
+      "address": "0x800d52c",
+      "size": 116,
+      "kind": "T",
+      "name": "PIOS_CALLBACKSCHEDULER_Schedule"
+    },
+    {
+      "address": "0x800d5a0",
+      "size": 384,
+      "kind": "T",
+      "name": "PIOS_CALLBACKSCHEDULER_Create"
+    },
+    {
+      "address": "0x800d720",
+      "size": 32,
+      "kind": "T",
+      "name": "PIOS_NOTIFY_StartNotification"
+    },
+    {
+      "address": "0x800d740",
+      "size": 24,
+      "kind": "T",
+      "name": "PIOS_NOTIFY_GetActiveNotification"
+    },
+    {
+      "address": "0x800d758",
+      "size": 52,
+      "kind": "t",
+      "name": "fast_invsqrtf"
+    },
+    {
+      "address": "0x800d78c",
+      "size": 64,
+      "kind": "T",
+      "name": "AttitudeStart"
+    },
+    {
+      "address": "0x800d7cc",
+      "size": 144,
+      "kind": "t",
+      "name": "apply_accel_filter"
+    },
+    {
+      "address": "0x800d85c",
+      "size": 1140,
+      "kind": "t",
+      "name": "updateAttitude"
+    },
+    {
+      "address": "0x800dcd0",
+      "size": 840,
+      "kind": "t",
+      "name": "settingsUpdatedCb"
+    },
+    {
+      "address": "0x800e018",
+      "size": 156,
+      "kind": "T",
+      "name": "AttitudeInitialize"
+    },
+    {
+      "address": "0x800e0b4",
+      "size": 2056,
+      "kind": "t",
+      "name": "AttitudeTask"
+    },
+    {
+      "address": "0x800e8bc",
+      "size": 84,
+      "kind": "t",
+      "name": "CruiseControlLimitThrust"
+    },
+    {
+      "address": "0x800e910",
+      "size": 100,
+      "kind": "t",
+      "name": "CruiseControlAngleToFactor"
+    },
+    {
+      "address": "0x800e974",
+      "size": 568,
+      "kind": "T",
+      "name": "cruisecontrol_compute_factor"
+    },
+    {
+      "address": "0x800ebac",
+      "size": 64,
+      "kind": "T",
+      "name": "cruisecontrol_apply_factor"
+    },
+    {
+      "address": "0x800ebec",
+      "size": 156,
+      "kind": "t",
+      "name": "GyroStateUpdatedCb"
+    },
+    {
+      "address": "0x800ec88",
+      "size": 416,
+      "kind": "t",
+      "name": "create_pid_scaler"
+    },
+    {
+      "address": "0x800ee28",
+      "size": 1060,
+      "kind": "t",
+      "name": "stabilizationInnerloopTask"
+    },
+    {
+      "address": "0x800f24c",
+      "size": 132,
+      "kind": "T",
+      "name": "stabilizationInnerloopInit"
+    },
+    {
+      "address": "0x800f2d0",
+      "size": 52,
+      "kind": "t",
+      "name": "AttitudeStateUpdatedCb"
+    },
+    {
+      "address": "0x800f304",
+      "size": 780,
+      "kind": "t",
+      "name": "stabilizationOuterloopTask"
+    },
+    {
+      "address": "0x800f610",
+      "size": 112,
+      "kind": "T",
+      "name": "stabilizationOuterloopInit"
+    },
+    {
+      "address": "0x800f680",
+      "size": 108,
+      "kind": "T",
+      "name": "StabilizationInitialize"
+    },
+    {
+      "address": "0x800f6ec",
+      "size": 348,
+      "kind": "t",
+      "name": "BankUpdatedCb"
+    },
+    {
+      "address": "0x800f848",
+      "size": 232,
+      "kind": "t",
+      "name": "SettingsUpdatedCb"
+    },
+    {
+      "address": "0x800f930",
+      "size": 164,
+      "kind": "t",
+      "name": "SettingsBankUpdatedCb"
+    },
+    {
+      "address": "0x800f9d4",
+      "size": 40,
+      "kind": "t",
+      "name": "FlightModeSwitchUpdatedCb"
+    },
+    {
+      "address": "0x800f9fc",
+      "size": 152,
+      "kind": "T",
+      "name": "StabilizationStart"
+    },
+    {
+      "address": "0x800fa94",
+      "size": 324,
+      "kind": "T",
+      "name": "stabilization_virtual_flybar"
+    },
+    {
+      "address": "0x800fbd8",
+      "size": 12,
+      "kind": "t",
+      "name": "ActuatorSettingsUpdatedCb"
+    },
+    {
+      "address": "0x800fbe4",
+      "size": 12,
+      "kind": "t",
+      "name": "MixerSettingsUpdatedCb"
+    },
+    {
+      "address": "0x800fbf0",
+      "size": 64,
+      "kind": "T",
+      "name": "ActuatorStart"
+    },
+    {
+      "address": "0x800fc30",
+      "size": 224,
+      "kind": "t",
+      "name": "actuator_update_rate_if_changed"
+    },
+    {
+      "address": "0x800fd10",
+      "size": 220,
+      "kind": "t",
+      "name": "buzzerState"
+    },
+    {
+      "address": "0x800fdec",
+      "size": 100,
+      "kind": "t",
+      "name": "set_channel"
+    },
+    {
+      "address": "0x800fe50",
+      "size": 120,
+      "kind": "t",
+      "name": "MixerCurve.constprop.0"
+    },
+    {
+      "address": "0x800fec8",
+      "size": 92,
+      "kind": "T",
+      "name": "ActuatorInitialize"
+    },
+    {
+      "address": "0x800ff24",
+      "size": 368,
+      "kind": "T",
+      "name": "ProcessMixer"
+    },
+    {
+      "address": "0x8010094",
+      "size": 1112,
+      "kind": "t",
+      "name": "actuatorTask"
+    },
+    {
+      "address": "0x80104ec",
+      "size": 144,
+      "kind": "t",
+      "name": "applyLPF"
+    },
+    {
+      "address": "0x801057c",
+      "size": 64,
+      "kind": "T",
+      "name": "ReceiverStart"
+    },
+    {
+      "address": "0x80105bc",
+      "size": 20,
+      "kind": "t",
+      "name": "AccessoryDesiredCreateInstance"
+    },
+    {
+      "address": "0x80105d0",
+      "size": 68,
+      "kind": "t",
+      "name": "resetRcvrActivity.constprop.3"
+    },
+    {
+      "address": "0x8010614",
+      "size": 1768,
+      "kind": "t",
+      "name": "receiverTask"
+    },
+    {
+      "address": "0x8010cfc",
+      "size": 536,
+      "kind": "T",
+      "name": "armHandler"
+    },
+    {
+      "address": "0x8010f14",
+      "size": 12,
+      "kind": "t",
+      "name": "commandUpdatedCb"
+    },
+    {
+      "address": "0x8010f20",
+      "size": 64,
+      "kind": "T",
+      "name": "ManualControlInitialize"
+    },
+    {
+      "address": "0x8010f60",
+      "size": 196,
+      "kind": "t",
+      "name": "manualControlTask"
+    },
+    {
+      "address": "0x8011024",
+      "size": 80,
+      "kind": "T",
+      "name": "ManualControlStart"
+    },
+    {
+      "address": "0x8011074",
+      "size": 60,
+      "kind": "t",
+      "name": "fastPow"
+    },
+    {
+      "address": "0x80110b0",
+      "size": 156,
+      "kind": "t",
+      "name": "applyExpo"
+    },
+    {
+      "address": "0x801114c",
+      "size": 92,
+      "kind": "t",
+      "name": "resetTask"
+    },
+    {
+      "address": "0x80111a8",
+      "size": 340,
+      "kind": "t",
+      "name": "FirmwareIAPCallback"
+    },
+    {
+      "address": "0x80112fc",
+      "size": 96,
+      "kind": "T",
+      "name": "FirmwareIAPInitialize"
+    },
+    {
+      "address": "0x801135c",
+      "size": 304,
+      "kind": "t",
+      "name": "updateTelemetryStats"
+    },
+    {
+      "address": "0x801148c",
+      "size": 128,
+      "kind": "T",
+      "name": "TelemetryStart"
+    },
+    {
+      "address": "0x801150c",
+      "size": 68,
+      "kind": "t",
+      "name": "setUpdatePeriod"
+    },
+    {
+      "address": "0x8011550",
+      "size": 68,
+      "kind": "t",
+      "name": "setLoggingPeriod"
+    },
+    {
+      "address": "0x8011594",
+      "size": 240,
+      "kind": "t",
+      "name": "updateObject"
+    },
+    {
+      "address": "0x8011684",
+      "size": 204,
+      "kind": "T",
+      "name": "TelemetryInitialize"
+    },
+    {
+      "address": "0x8011750",
+      "size": 36,
+      "kind": "t",
+      "name": "getComPort.isra.0"
+    },
+    {
+      "address": "0x8011774",
+      "size": 68,
+      "kind": "t",
+      "name": "telemetryRxTask"
+    },
+    {
+      "address": "0x80117b8",
+      "size": 40,
+      "kind": "t",
+      "name": "registerObject"
+    },
+    {
+      "address": "0x80117e0",
+      "size": 380,
+      "kind": "t",
+      "name": "telemetryTxTask"
+    },
+    {
+      "address": "0x801195c",
+      "size": 116,
+      "kind": "T",
+      "name": "CameraStabInitialize"
+    },
+    {
+      "address": "0x80119d0",
+      "size": 908,
+      "kind": "t",
+      "name": "attitudeUpdated"
+    },
+    {
+      "address": "0x8011d5c",
+      "size": 112,
+      "kind": "t",
+      "name": "comUsbBridgeStart"
+    },
+    {
+      "address": "0x8011dcc",
+      "size": 64,
+      "kind": "t",
+      "name": "usb2ComBridgeTask"
+    },
+    {
+      "address": "0x8011e0c",
+      "size": 64,
+      "kind": "t",
+      "name": "com2UsbBridgeTask"
+    },
+    {
+      "address": "0x8011e4c",
+      "size": 104,
+      "kind": "t",
+      "name": "updateSettings"
+    },
+    {
+      "address": "0x8011eb4",
+      "size": 136,
+      "kind": "t",
+      "name": "comUsbBridgeInitialize"
+    },
+    {
+      "address": "0x8011f3c",
+      "size": 84,
+      "kind": "T",
+      "name": "GPSStart"
+    },
+    {
+      "address": "0x8011f90",
+      "size": 252,
+      "kind": "t",
+      "name": "gpsTask"
+    },
+    {
+      "address": "0x801208c",
+      "size": 236,
+      "kind": "T",
+      "name": "GPSInitialize"
+    },
+    {
+      "address": "0x8012178",
+      "size": 52,
+      "kind": "T",
+      "name": "check_msgtracker"
+    },
+    {
+      "address": "0x80121ac",
+      "size": 64,
+      "kind": "t",
+      "name": "parse_ubx_nav_dop"
+    },
+    {
+      "address": "0x80121ec",
+      "size": 60,
+      "kind": "t",
+      "name": "parse_ubx_nav_sol"
+    },
+    {
+      "address": "0x8012228",
+      "size": 136,
+      "kind": "t",
+      "name": "parse_ubx_nav_velned"
+    },
+    {
+      "address": "0x80122b0",
+      "size": 80,
+      "kind": "t",
+      "name": "parse_ubx_nav_posllh"
+    },
+    {
+      "address": "0x8012300",
+      "size": 148,
+      "kind": "T",
+      "name": "parse_ubx_message"
+    },
+    {
+      "address": "0x8012394",
+      "size": 244,
+      "kind": "T",
+      "name": "parse_ubx_stream"
+    },
+    {
+      "address": "0x8012488",
+      "size": 36,
+      "kind": "t",
+      "name": "update"
+    },
+    {
+      "address": "0x80124ac",
+      "size": 76,
+      "kind": "T",
+      "name": "TxPIDInitialize"
+    },
+    {
+      "address": "0x80124f8",
+      "size": 836,
+      "kind": "t",
+      "name": "updatePIDs"
+    },
+    {
+      "address": "0x801283c",
+      "size": 40,
+      "kind": "t",
+      "name": "osdoutputStart"
+    },
+    {
+      "address": "0x8012864",
+      "size": 56,
+      "kind": "t",
+      "name": "osdoutputInitialize"
+    },
+    {
+      "address": "0x801289c",
+      "size": 212,
+      "kind": "t",
+      "name": "send_update"
+    },
+    {
+      "address": "0x8012970",
+      "size": 108,
+      "kind": "T",
+      "name": "cosf"
+    },
+    {
+      "address": "0x80129dc",
+      "size": 40,
+      "kind": "T",
+      "name": "fmaxf"
+    },
+    {
+      "address": "0x8012a04",
+      "size": 52,
+      "kind": "T",
+      "name": "__fpclassifyf"
+    },
+    {
+      "address": "0x8012a38",
+      "size": 72,
+      "kind": "T",
+      "name": "roundf"
+    },
+    {
+      "address": "0x8012a80",
+      "size": 124,
+      "kind": "T",
+      "name": "sinf"
+    },
+    {
+      "address": "0x8012afc",
+      "size": 160,
+      "kind": "T",
+      "name": "acosf"
+    },
+    {
+      "address": "0x8012b9c",
+      "size": 160,
+      "kind": "T",
+      "name": "asinf"
+    },
+    {
+      "address": "0x8012c3c",
+      "size": 4,
+      "kind": "T",
+      "name": "atan2f"
+    },
+    {
+      "address": "0x8012c40",
+      "size": 224,
+      "kind": "T",
+      "name": "expf"
+    },
+    {
+      "address": "0x8012d20",
+      "size": 180,
+      "kind": "T",
+      "name": "fmodf"
+    },
+    {
+      "address": "0x8012dd4",
+      "size": 720,
+      "kind": "T",
+      "name": "__ieee754_acosf"
+    },
+    {
+      "address": "0x80130a4",
+      "size": 664,
+      "kind": "T",
+      "name": "__ieee754_asinf"
+    },
+    {
+      "address": "0x801333c",
+      "size": 288,
+      "kind": "T",
+      "name": "__ieee754_atan2f"
+    },
+    {
+      "address": "0x801345c",
+      "size": 504,
+      "kind": "T",
+      "name": "__ieee754_expf"
+    },
+    {
+      "address": "0x8013654",
+      "size": 260,
+      "kind": "T",
+      "name": "__ieee754_fmodf"
+    },
+    {
+      "address": "0x8013758",
+      "size": 740,
+      "kind": "T",
+      "name": "__ieee754_rem_pio2f"
+    },
+    {
+      "address": "0x8013a3c",
+      "size": 166,
+      "kind": "T",
+      "name": "__ieee754_sqrtf"
+    },
+    {
+      "address": "0x8013ae4",
+      "size": 392,
+      "kind": "T",
+      "name": "__kernel_cosf"
+    },
+    {
+      "address": "0x8013c6c",
+      "size": 1652,
+      "kind": "T",
+      "name": "__kernel_rem_pio2f"
+    },
+    {
+      "address": "0x80142e0",
+      "size": 236,
+      "kind": "T",
+      "name": "__kernel_sinf"
+    },
+    {
+      "address": "0x80143cc",
+      "size": 4,
+      "kind": "T",
+      "name": "matherr"
+    },
+    {
+      "address": "0x80143d0",
+      "size": 12,
+      "kind": "T",
+      "name": "nan"
+    },
+    {
+      "address": "0x80143dc",
+      "size": 556,
+      "kind": "T",
+      "name": "atanf"
+    },
+    {
+      "address": "0x8014608",
+      "size": 6,
+      "kind": "T",
+      "name": "fabsf"
+    },
+    {
+      "address": "0x8014610",
+      "size": 16,
+      "kind": "T",
+      "name": "finitef"
+    },
+    {
+      "address": "0x8014620",
+      "size": 140,
+      "kind": "T",
+      "name": "floorf"
+    },
+    {
+      "address": "0x80146ac",
+      "size": 176,
+      "kind": "T",
+      "name": "scalbnf"
+    },
+    {
+      "address": "0x801475c",
+      "size": 12,
+      "kind": "T",
+      "name": "copysignf"
+    },
+    {
+      "address": "0x8014768",
+      "size": 12,
+      "kind": "T",
+      "name": "__errno"
+    },
+    {
+      "address": "0x8014774",
+      "size": 0,
+      "kind": "T",
+      "name": "__aeabi_drsub"
+    },
+    {
+      "address": "0x801477c",
+      "size": 634,
+      "kind": "T",
+      "name": "__aeabi_dsub"
+    },
+    {
+      "address": "0x801477c",
+      "size": 634,
+      "kind": "T",
+      "name": "__subdf3"
+    },
+    {
+      "address": "0x8014780",
+      "size": 630,
+      "kind": "T",
+      "name": "__adddf3"
+    },
+    {
+      "address": "0x8014780",
+      "size": 630,
+      "kind": "T",
+      "name": "__aeabi_dadd"
+    },
+    {
+      "address": "0x80149f8",
+      "size": 30,
+      "kind": "T",
+      "name": "__aeabi_ui2d"
+    },
+    {
+      "address": "0x80149f8",
+      "size": 30,
+      "kind": "T",
+      "name": "__floatunsidf"
+    },
+    {
+      "address": "0x8014a18",
+      "size": 34,
+      "kind": "T",
+      "name": "__aeabi_i2d"
+    },
+    {
+      "address": "0x8014a18",
+      "size": 34,
+      "kind": "T",
+      "name": "__floatsidf"
+    },
+    {
+      "address": "0x8014a3c",
+      "size": 58,
+      "kind": "T",
+      "name": "__aeabi_f2d"
+    },
+    {
+      "address": "0x8014a3c",
+      "size": 58,
+      "kind": "T",
+      "name": "__extendsfdf2"
+    },
+    {
+      "address": "0x8014a78",
+      "size": 106,
+      "kind": "T",
+      "name": "__aeabi_ul2d"
+    },
+    {
+      "address": "0x8014a78",
+      "size": 106,
+      "kind": "T",
+      "name": "__floatundidf"
+    },
+    {
+      "address": "0x8014a88",
+      "size": 90,
+      "kind": "T",
+      "name": "__aeabi_l2d"
+    },
+    {
+      "address": "0x8014a88",
+      "size": 90,
+      "kind": "T",
+      "name": "__floatdidf"
+    },
+    {
+      "address": "0x8014ae4",
+      "size": 596,
+      "kind": "T",
+      "name": "__aeabi_dmul"
+    },
+    {
+      "address": "0x8014ae4",
+      "size": 596,
+      "kind": "T",
+      "name": "__muldf3"
+    },
+    {
+      "address": "0x8014d38",
+      "size": 464,
+      "kind": "T",
+      "name": "__aeabi_ddiv"
+    },
+    {
+      "address": "0x8014d38",
+      "size": 464,
+      "kind": "T",
+      "name": "__divdf3"
+    },
+    {
+      "address": "0x8014f08",
+      "size": 158,
+      "kind": "T",
+      "name": "__aeabi_d2f"
+    },
+    {
+      "address": "0x8014f08",
+      "size": 158,
+      "kind": "T",
+      "name": "__truncdfsf2"
+    },
+    {
+      "address": "0x8014fa8",
+      "size": 364,
+      "kind": "T",
+      "name": "__aeabi_frsub"
+    },
+    {
+      "address": "0x8014fb0",
+      "size": 356,
+      "kind": "T",
+      "name": "__aeabi_fsub"
+    },
+    {
+      "address": "0x8014fb0",
+      "size": 356,
+      "kind": "T",
+      "name": "__subsf3"
+    },
+    {
+      "address": "0x8014fb4",
+      "size": 352,
+      "kind": "T",
+      "name": "__addsf3"
+    },
+    {
+      "address": "0x8014fb4",
+      "size": 352,
+      "kind": "T",
+      "name": "__aeabi_fadd"
+    },
+    {
+      "address": "0x8015114",
+      "size": 36,
+      "kind": "T",
+      "name": "__aeabi_ui2f"
+    },
+    {
+      "address": "0x8015114",
+      "size": 36,
+      "kind": "T",
+      "name": "__floatunsisf"
+    },
+    {
+      "address": "0x801511c",
+      "size": 28,
+      "kind": "T",
+      "name": "__aeabi_i2f"
+    },
+    {
+      "address": "0x801511c",
+      "size": 28,
+      "kind": "T",
+      "name": "__floatsisf"
+    },
+    {
+      "address": "0x8015138",
+      "size": 140,
+      "kind": "T",
+      "name": "__aeabi_ul2f"
+    },
+    {
+      "address": "0x8015138",
+      "size": 140,
+      "kind": "T",
+      "name": "__floatundisf"
+    },
+    {
+      "address": "0x8015148",
+      "size": 124,
+      "kind": "T",
+      "name": "__aeabi_l2f"
+    },
+    {
+      "address": "0x8015148",
+      "size": 124,
+      "kind": "T",
+      "name": "__floatdisf"
+    },
+    {
+      "address": "0x80151c4",
+      "size": 360,
+      "kind": "T",
+      "name": "__aeabi_fmul"
+    },
+    {
+      "address": "0x80151c4",
+      "size": 360,
+      "kind": "T",
+      "name": "__mulsf3"
+    },
+    {
+      "address": "0x801532c",
+      "size": 310,
+      "kind": "T",
+      "name": "__aeabi_fdiv"
+    },
+    {
+      "address": "0x801532c",
+      "size": 310,
+      "kind": "T",
+      "name": "__divsf3"
+    },
+    {
+      "address": "0x8015464",
+      "size": 110,
+      "kind": "T",
+      "name": "__gesf2"
+    },
+    {
+      "address": "0x8015464",
+      "size": 110,
+      "kind": "T",
+      "name": "__gtsf2"
+    },
+    {
+      "address": "0x801546c",
+      "size": 102,
+      "kind": "T",
+      "name": "__lesf2"
+    },
+    {
+      "address": "0x801546c",
+      "size": 102,
+      "kind": "T",
+      "name": "__ltsf2"
+    },
+    {
+      "address": "0x8015474",
+      "size": 94,
+      "kind": "T",
+      "name": "__cmpsf2"
+    },
+    {
+      "address": "0x8015474",
+      "size": 94,
+      "kind": "T",
+      "name": "__eqsf2"
+    },
+    {
+      "address": "0x8015474",
+      "size": 94,
+      "kind": "T",
+      "name": "__nesf2"
+    },
+    {
+      "address": "0x80154d4",
+      "size": 24,
+      "kind": "T",
+      "name": "__aeabi_cfrcmple"
+    },
+    {
+      "address": "0x80154dc",
+      "size": 16,
+      "kind": "T",
+      "name": "__aeabi_cfcmpeq"
+    },
+    {
+      "address": "0x80154dc",
+      "size": 16,
+      "kind": "T",
+      "name": "__aeabi_cfcmple"
+    },
+    {
+      "address": "0x80154ec",
+      "size": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmpeq"
+    },
+    {
+      "address": "0x8015500",
+      "size": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmplt"
+    },
+    {
+      "address": "0x8015514",
+      "size": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmple"
+    },
+    {
+      "address": "0x8015528",
+      "size": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmpge"
+    },
+    {
+      "address": "0x801553c",
+      "size": 18,
+      "kind": "T",
+      "name": "__aeabi_fcmpgt"
+    },
+    {
+      "address": "0x8015550",
+      "size": 76,
+      "kind": "T",
+      "name": "__aeabi_f2iz"
+    },
+    {
+      "address": "0x8015550",
+      "size": 76,
+      "kind": "T",
+      "name": "__fixsfsi"
+    },
+    {
+      "address": "0x801559c",
+      "size": 62,
+      "kind": "T",
+      "name": "__aeabi_f2uiz"
+    },
+    {
+      "address": "0x801559c",
+      "size": 62,
+      "kind": "T",
+      "name": "__fixunssfsi"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "ADC1_2_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "BusFault_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "CAN1_RX1_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "CAN1_SCE_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "DMA1_Channel6_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "DMA1_Channel7_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "DebugMon_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "T",
+      "name": "Default_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "FLASH_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "HardFault_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "I2C1_ER_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "I2C1_EV_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "I2C2_ER_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "I2C2_EV_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 0,
+      "kind": "t",
+      "name": "Infinite_Loop"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "MemManage_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "NMI_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "PVD_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "PendSV_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "RCC_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "RTCAlarm_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "SPI1_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "SPI2_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "SVC_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "SysTick_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "TAMPER_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "TIM1_BRK_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "TIM1_TRG_COM_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "USBWakeUp_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "USB_HP_CAN1_TX_IRQHandler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "UsageFault_Handler"
+    },
+    {
+      "address": "0x80155dc",
+      "size": 2,
+      "kind": "W",
+      "name": "WWDG_IRQHandler"
+    },
+    {
+      "address": "0x80155de",
+      "size": 18,
+      "kind": "t",
+      "name": "SystemStatsGet"
+    },
+    {
+      "address": "0x80155f0",
+      "size": 4,
+      "kind": "T",
+      "name": "vApplicationIdleHook"
+    },
+    {
+      "address": "0x80155f4",
+      "size": 4,
+      "kind": "t",
+      "name": "ActuatorSettingsUpdatedCb"
+    },
+    {
+      "address": "0x80155f8",
+      "size": 94,
+      "kind": "t",
+      "name": "CopterControlConfigHook"
+    },
+    {
+      "address": "0x8015656",
+      "size": 4,
+      "kind": "T",
+      "name": "DMA1_Channel1_IRQHandler"
+    },
+    {
+      "address": "0x8015656",
+      "size": 4,
+      "kind": "T",
+      "name": "PIOS_ADC_handler"
+    },
+    {
+      "address": "0x801565a",
+      "size": 4,
+      "kind": "T",
+      "name": "PIOS_RTC_IRQ_Handler"
+    },
+    {
+      "address": "0x801565a",
+      "size": 4,
+      "kind": "T",
+      "name": "RTC_IRQHandler"
+    },
+    {
+      "address": "0x801565e",
+      "size": 102,
+      "kind": "T",
+      "name": "PIOS_MPU6000_CONFIG_Configure"
+    },
+    {
+      "address": "0x80156c4",
+      "size": 32,
+      "kind": "T",
+      "name": "AlarmsGet"
+    },
+    {
+      "address": "0x80156e4",
+      "size": 20,
+      "kind": "T",
+      "name": "AlarmsClear"
+    },
+    {
+      "address": "0x80156f8",
+      "size": 226,
+      "kind": "t",
+      "name": "sendSingleObject"
+    },
+    {
+      "address": "0x80157da",
+      "size": 170,
+      "kind": "t",
+      "name": "sendObject"
+    },
+    {
+      "address": "0x8015884",
+      "size": 210,
+      "kind": "t",
+      "name": "objectTransaction"
+    },
+    {
+      "address": "0x8015956",
+      "size": 52,
+      "kind": "t",
+      "name": "updateAck"
+    },
+    {
+      "address": "0x801598a",
+      "size": 72,
+      "kind": "T",
+      "name": "UAVTalkGetStats"
+    },
+    {
+      "address": "0x80159d2",
+      "size": 46,
+      "kind": "T",
+      "name": "UAVTalkResetStats"
+    },
+    {
+      "address": "0x8015a00",
+      "size": 122,
+      "kind": "T",
+      "name": "UAVTalkInitialize"
+    },
+    {
+      "address": "0x8015a7a",
+      "size": 36,
+      "kind": "T",
+      "name": "UAVTalkSendObjectRequest"
+    },
+    {
+      "address": "0x8015a9e",
+      "size": 46,
+      "kind": "T",
+      "name": "UAVTalkSendObject"
+    },
+    {
+      "address": "0x8015acc",
+      "size": 626,
+      "kind": "T",
+      "name": "UAVTalkProcessInputStreamQuiet"
+    },
+    {
+      "address": "0x8015d3e",
+      "size": 252,
+      "kind": "T",
+      "name": "UAVTalkReceiveObject"
+    },
+    {
+      "address": "0x8015e3a",
+      "size": 24,
+      "kind": "T",
+      "name": "UAVTalkProcessInputStream"
+    },
+    {
+      "address": "0x8015e52",
+      "size": 86,
+      "kind": "t",
+      "name": "connectObj"
+    },
+    {
+      "address": "0x8015ea8",
+      "size": 22,
+      "kind": "T",
+      "name": "UAVObjGetID"
+    },
+    {
+      "address": "0x8015ebe",
+      "size": 16,
+      "kind": "T",
+      "name": "UAVObjGetNumBytes"
+    },
+    {
+      "address": "0x8015ece",
+      "size": 16,
+      "kind": "T",
+      "name": "UAVObjGetLinkedObj"
+    },
+    {
+      "address": "0x8015ede",
+      "size": 16,
+      "kind": "T",
+      "name": "UAVObjGetNumInstances"
+    },
+    {
+      "address": "0x8015eee",
+      "size": 12,
+      "kind": "T",
+      "name": "UAVObjIsSingleInstance"
+    },
+    {
+      "address": "0x8015efa",
+      "size": 12,
+      "kind": "T",
+      "name": "UAVObjIsMetaobject"
+    },
+    {
+      "address": "0x8015f06",
+      "size": 12,
+      "kind": "T",
+      "name": "UAVObjIsPriority"
+    },
+    {
+      "address": "0x8015f12",
+      "size": 12,
+      "kind": "T",
+      "name": "UAVObjGetAccess"
+    },
+    {
+      "address": "0x8015f1e",
+      "size": 16,
+      "kind": "T",
+      "name": "UAVObjSetAccess"
+    },
+    {
+      "address": "0x8015f2e",
+      "size": 12,
+      "kind": "T",
+      "name": "UAVObjGetTelemetryAcked"
+    },
+    {
+      "address": "0x8015f3a",
+      "size": 12,
+      "kind": "T",
+      "name": "UAVObjGetTelemetryUpdateMode"
+    },
+    {
+      "address": "0x8015f46",
+      "size": 12,
+      "kind": "T",
+      "name": "UAVObjGetLoggingUpdateMode"
+    },
+    {
+      "address": "0x8015f52",
+      "size": 32,
+      "kind": "T",
+      "name": "UAVObjReadOnly"
+    },
+    {
+      "address": "0x8015f72",
+      "size": 130,
+      "kind": "t",
+      "name": "createInstance"
+    },
+    {
+      "address": "0x8015ff4",
+      "size": 8,
+      "kind": "T",
+      "name": "UAVObjUpdated"
+    },
+    {
+      "address": "0x8015ffc",
+      "size": 70,
+      "kind": "T",
+      "name": "getInstance"
+    },
+    {
+      "address": "0x8016042",
+      "size": 8,
+      "kind": "T",
+      "name": "UAVObjSetData"
+    },
+    {
+      "address": "0x801604a",
+      "size": 22,
+      "kind": "T",
+      "name": "UAVObjSetDataField"
+    },
+    {
+      "address": "0x8016060",
+      "size": 8,
+      "kind": "T",
+      "name": "UAVObjGetData"
+    },
+    {
+      "address": "0x8016068",
+      "size": 22,
+      "kind": "T",
+      "name": "UAVObjGetDataField"
+    },
+    {
+      "address": "0x801607e",
+      "size": 8,
+      "kind": "T",
+      "name": "EventPeriodicCallbackCreate"
+    },
+    {
+      "address": "0x8016086",
+      "size": 18,
+      "kind": "T",
+      "name": "EventPeriodicQueueCreate"
+    },
+    {
+      "address": "0x8016098",
+      "size": 18,
+      "kind": "T",
+      "name": "EventPeriodicQueueUpdate"
+    },
+    {
+      "address": "0x80160aa",
+      "size": 64,
+      "kind": "T",
+      "name": "AccessoryDesiredSetDefaults"
+    },
+    {
+      "address": "0x80160ea",
+      "size": 66,
+      "kind": "T",
+      "name": "ObjectPersistenceSetDefaults"
+    },
+    {
+      "address": "0x801612c",
+      "size": 70,
+      "kind": "T",
+      "name": "GCSTelemetryStatsSetDefaults"
+    },
+    {
+      "address": "0x8016172",
+      "size": 70,
+      "kind": "T",
+      "name": "FlightTelemetryStatsSetDefaults"
+    },
+    {
+      "address": "0x80161b8",
+      "size": 66,
+      "kind": "T",
+      "name": "FlightStatusSetDefaults"
+    },
+    {
+      "address": "0x80161fa",
+      "size": 70,
+      "kind": "T",
+      "name": "SystemStatsSetDefaults"
+    },
+    {
+      "address": "0x8016240",
+      "size": 70,
+      "kind": "T",
+      "name": "SystemAlarmsSetDefaults"
+    },
+    {
+      "address": "0x8016286",
+      "size": 70,
+      "kind": "T",
+      "name": "StabilizationDesiredSetDefaults"
+    },
+    {
+      "address": "0x80162cc",
+      "size": 66,
+      "kind": "T",
+      "name": "StabilizationStatusSetDefaults"
+    },
+    {
+      "address": "0x801630e",
+      "size": 70,
+      "kind": "T",
+      "name": "ActuatorCommandSetDefaults"
+    },
+    {
+      "address": "0x8016354",
+      "size": 70,
+      "kind": "T",
+      "name": "ActuatorDesiredSetDefaults"
+    },
+    {
+      "address": "0x801639a",
+      "size": 306,
+      "kind": "T",
+      "name": "ActuatorSettingsSetDefaults"
+    },
+    {
+      "address": "0x80164cc",
+      "size": 70,
+      "kind": "T",
+      "name": "AccelStateSetDefaults"
+    },
+    {
+      "address": "0x8016512",
+      "size": 82,
+      "kind": "T",
+      "name": "AccelGyroSettingsSetDefaults"
+    },
+    {
+      "address": "0x8016564",
+      "size": 70,
+      "kind": "T",
+      "name": "GyroStateSetDefaults"
+    },
+    {
+      "address": "0x80165aa",
+      "size": 68,
+      "kind": "T",
+      "name": "AttitudeStateSetDefaults"
+    },
+    {
+      "address": "0x80165ee",
+      "size": 70,
+      "kind": "T",
+      "name": "ManualControlCommandSetDefaults"
+    },
+    {
+      "address": "0x8016634",
+      "size": 66,
+      "kind": "T",
+      "name": "FirmwareIAPObjSetDefaults"
+    },
+    {
+      "address": "0x8016676",
+      "size": 160,
+      "kind": "T",
+      "name": "CameraStabSettingsSetDefaults"
+    },
+    {
+      "address": "0x8016716",
+      "size": 70,
+      "kind": "T",
+      "name": "CameraDesiredSetDefaults"
+    },
+    {
+      "address": "0x801675c",
+      "size": 70,
+      "kind": "T",
+      "name": "GPSPositionSensorSetDefaults"
+    },
+    {
+      "address": "0x80167a2",
+      "size": 70,
+      "kind": "T",
+      "name": "GPSVelocitySensorSetDefaults"
+    },
+    {
+      "address": "0x80167e8",
+      "size": 120,
+      "kind": "T",
+      "name": "HwSettingsSetDefaults"
+    },
+    {
+      "address": "0x8016860",
+      "size": 68,
+      "kind": "T",
+      "name": "ReceiverActivitySetDefaults"
+    },
+    {
+      "address": "0x80168a4",
+      "size": 70,
+      "kind": "T",
+      "name": "RateDesiredSetDefaults"
+    },
+    {
+      "address": "0x80168ea",
+      "size": 74,
+      "kind": "T",
+      "name": "Mpu6000SettingsSetDefaults"
+    },
+    {
+      "address": "0x8016934",
+      "size": 22,
+      "kind": "T",
+      "name": "vListInitialise"
+    },
+    {
+      "address": "0x801694a",
+      "size": 6,
+      "kind": "T",
+      "name": "vListInitialiseItem"
+    },
+    {
+      "address": "0x8016950",
+      "size": 24,
+      "kind": "T",
+      "name": "vListInsertEnd"
+    },
+    {
+      "address": "0x8016968",
+      "size": 48,
+      "kind": "T",
+      "name": "vListInsert"
+    },
+    {
+      "address": "0x8016998",
+      "size": 32,
+      "kind": "T",
+      "name": "uxListRemove"
+    },
+    {
+      "address": "0x80169b8",
+      "size": 102,
+      "kind": "t",
+      "name": "prvCopyDataToQueue"
+    },
+    {
+      "address": "0x8016a1e",
+      "size": 38,
+      "kind": "t",
+      "name": "prvCopyDataFromQueue"
+    },
+    {
+      "address": "0x8016a44",
+      "size": 100,
+      "kind": "t",
+      "name": "prvUnlockQueue"
+    },
+    {
+      "address": "0x8016aa8",
+      "size": 90,
+      "kind": "T",
+      "name": "xQueueGenericReset"
+    },
+    {
+      "address": "0x8016b02",
+      "size": 66,
+      "kind": "T",
+      "name": "xQueueGenericCreate"
+    },
+    {
+      "address": "0x8016b44",
+      "size": 210,
+      "kind": "T",
+      "name": "xQueueGenericSend"
+    },
+    {
+      "address": "0x8016c16",
+      "size": 68,
+      "kind": "T",
+      "name": "xQueueCreateMutex"
+    },
+    {
+      "address": "0x8016c5a",
+      "size": 42,
+      "kind": "T",
+      "name": "xQueueGiveMutexRecursive"
+    },
+    {
+      "address": "0x8016c84",
+      "size": 92,
+      "kind": "T",
+      "name": "xQueueGenericSendFromISR"
+    },
+    {
+      "address": "0x8016ce0",
+      "size": 258,
+      "kind": "T",
+      "name": "xQueueGenericReceive"
+    },
+    {
+      "address": "0x8016de2",
+      "size": 50,
+      "kind": "T",
+      "name": "xQueueTakeMutexRecursive"
+    },
+    {
+      "address": "0x8016e14",
+      "size": 82,
+      "kind": "T",
+      "name": "xQueueReceiveFromISR"
+    },
+    {
+      "address": "0x8016e66",
+      "size": 28,
+      "kind": "T",
+      "name": "PIOS_BKP_Init"
+    },
+    {
+      "address": "0x8016e82",
+      "size": 6,
+      "kind": "T",
+      "name": "PIOS_BKP_EnableWrite"
+    },
+    {
+      "address": "0x8016e88",
+      "size": 8,
+      "kind": "T",
+      "name": "PIOS_BL_HELPER_CRC_Ini"
+    },
+    {
+      "address": "0x8016e90",
+      "size": 22,
+      "kind": "T",
+      "name": "PIOS_DELAY_WaitmS"
+    },
+    {
+      "address": "0x8016ea6",
+      "size": 164,
+      "kind": "T",
+      "name": "PIOS_EXTI_gpio_pin_to_exti_source_pin"
+    },
+    {
+      "address": "0x8016f4a",
+      "size": 38,
+      "kind": "T",
+      "name": "PIOS_GPIO_On"
+    },
+    {
+      "address": "0x8016f70",
+      "size": 38,
+      "kind": "T",
+      "name": "PIOS_GPIO_Off"
+    },
+    {
+      "address": "0x8016f96",
+      "size": 70,
+      "kind": "T",
+      "name": "PIOS_GPIO_Toggle"
+    },
+    {
+      "address": "0x8016fdc",
+      "size": 90,
+      "kind": "T",
+      "name": "PIOS_RTC_Init"
+    },
+    {
+      "address": "0x8017036",
+      "size": 28,
+      "kind": "T",
+      "name": "PIOS_SPI_ClaimBus"
+    },
+    {
+      "address": "0x8017052",
+      "size": 58,
+      "kind": "T",
+      "name": "PIOS_SPI_ClaimBusISR"
+    },
+    {
+      "address": "0x801708c",
+      "size": 18,
+      "kind": "T",
+      "name": "PIOS_SPI_ReleaseBus"
+    },
+    {
+      "address": "0x801709e",
+      "size": 46,
+      "kind": "T",
+      "name": "PIOS_SPI_ReleaseBusISR"
+    },
+    {
+      "address": "0x80170cc",
+      "size": 44,
+      "kind": "T",
+      "name": "PIOS_SPI_RC_PinSet"
+    },
+    {
+      "address": "0x80170f8",
+      "size": 66,
+      "kind": "T",
+      "name": "PIOS_SPI_SetClockSpeed"
+    },
+    {
+      "address": "0x801713a",
+      "size": 418,
+      "kind": "T",
+      "name": "PIOS_SPI_TransferBlock"
+    },
+    {
+      "address": "0x80172dc",
+      "size": 96,
+      "kind": "T",
+      "name": "PIOS_SPI_IRQ_Handler"
+    },
+    {
+      "address": "0x801733c",
+      "size": 24,
+      "kind": "T",
+      "name": "PIOS_SYS_SerialNumberGetBinary"
+    },
+    {
+      "address": "0x8017354",
+      "size": 54,
+      "kind": "T",
+      "name": "PIOS_SYS_SerialNumberGet"
+    },
+    {
+      "address": "0x801738a",
+      "size": 8,
+      "kind": "t",
+      "name": "PIOS_TIM_2_irq_handler"
+    },
+    {
+      "address": "0x801738a",
+      "size": 8,
+      "kind": "T",
+      "name": "TIM2_IRQHandler"
+    },
+    {
+      "address": "0x8017392",
+      "size": 84,
+      "kind": "t",
+      "name": "PIOS_USB_CDC_SendData"
+    },
+    {
+      "address": "0x80173e6",
+      "size": 98,
+      "kind": "t",
+      "name": "PIOS_USB_HID_SendReport"
+    },
+    {
+      "address": "0x8017448",
+      "size": 50,
+      "kind": "t",
+      "name": "PIOS_USB_RCTX_SendReport"
+    },
+    {
+      "address": "0x801747a",
+      "size": 2,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_Status_In"
+    },
+    {
+      "address": "0x801747c",
+      "size": 2,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_Status_Out"
+    },
+    {
+      "address": "0x801747e",
+      "size": 16,
+      "kind": "t",
+      "name": "PIOS_USBHOOK_Get_Interface_Setting"
+    },
+    {
+      "address": "0x801748e",
+      "size": 4,
+      "kind": "T",
+      "name": "PIOS_WDG_Clear"
+    },
+    {
+      "address": "0x8017492",
+      "size": 18,
+      "kind": "T",
+      "name": "ADC_StructInit"
+    },
+    {
+      "address": "0x80174a4",
+      "size": 18,
+      "kind": "T",
+      "name": "ADC_Cmd"
+    },
+    {
+      "address": "0x80174b6",
+      "size": 18,
+      "kind": "T",
+      "name": "ADC_DMACmd"
+    },
+    {
+      "address": "0x80174c8",
+      "size": 10,
+      "kind": "T",
+      "name": "ADC_ResetCalibration"
+    },
+    {
+      "address": "0x80174d2",
+      "size": 8,
+      "kind": "T",
+      "name": "ADC_GetResetCalibrationStatus"
+    },
+    {
+      "address": "0x80174da",
+      "size": 10,
+      "kind": "T",
+      "name": "ADC_StartCalibration"
+    },
+    {
+      "address": "0x80174e4",
+      "size": 8,
+      "kind": "T",
+      "name": "ADC_GetCalibrationStatus"
+    },
+    {
+      "address": "0x80174ec",
+      "size": 18,
+      "kind": "T",
+      "name": "ADC_SoftwareStartConvCmd"
+    },
+    {
+      "address": "0x80174fe",
+      "size": 132,
+      "kind": "T",
+      "name": "ADC_RegularChannelConfig"
+    },
+    {
+      "address": "0x8017582",
+      "size": 18,
+      "kind": "T",
+      "name": "ADC_ExternalTrigConvCmd"
+    },
+    {
+      "address": "0x8017594",
+      "size": 60,
+      "kind": "T",
+      "name": "DMA_Init"
+    },
+    {
+      "address": "0x80175d0",
+      "size": 22,
+      "kind": "T",
+      "name": "DMA_Cmd"
+    },
+    {
+      "address": "0x80175e6",
+      "size": 16,
+      "kind": "T",
+      "name": "DMA_ITConfig"
+    },
+    {
+      "address": "0x80175f6",
+      "size": 6,
+      "kind": "T",
+      "name": "DMA_GetCurrDataCounter"
+    },
+    {
+      "address": "0x80175fc",
+      "size": 156,
+      "kind": "T",
+      "name": "GPIO_Init"
+    },
+    {
+      "address": "0x8017698",
+      "size": 16,
+      "kind": "T",
+      "name": "GPIO_StructInit"
+    },
+    {
+      "address": "0x80176a8",
+      "size": 12,
+      "kind": "T",
+      "name": "GPIO_ReadOutputDataBit"
+    },
+    {
+      "address": "0x80176b4",
+      "size": 4,
+      "kind": "T",
+      "name": "GPIO_SetBits"
+    },
+    {
+      "address": "0x80176b8",
+      "size": 4,
+      "kind": "T",
+      "name": "GPIO_ResetBits"
+    },
+    {
+      "address": "0x80176bc",
+      "size": 10,
+      "kind": "T",
+      "name": "GPIO_WriteBit"
+    },
+    {
+      "address": "0x80176c6",
+      "size": 42,
+      "kind": "T",
+      "name": "GPIO_EXTILineConfig"
+    },
+    {
+      "address": "0x80176f0",
+      "size": 62,
+      "kind": "T",
+      "name": "SPI_Init"
+    },
+    {
+      "address": "0x801772e",
+      "size": 24,
+      "kind": "T",
+      "name": "SPI_Cmd"
+    },
+    {
+      "address": "0x8017746",
+      "size": 18,
+      "kind": "T",
+      "name": "SPI_I2S_DMACmd"
+    },
+    {
+      "address": "0x8017758",
+      "size": 6,
+      "kind": "T",
+      "name": "SPI_I2S_ReceiveData"
+    },
+    {
+      "address": "0x801775e",
+      "size": 30,
+      "kind": "T",
+      "name": "SPI_NSSInternalSoftwareConfig"
+    },
+    {
+      "address": "0x801777c",
+      "size": 24,
+      "kind": "T",
+      "name": "SPI_CalculateCRC"
+    },
+    {
+      "address": "0x8017794",
+      "size": 12,
+      "kind": "T",
+      "name": "SPI_GetCRC"
+    },
+    {
+      "address": "0x80177a0",
+      "size": 12,
+      "kind": "T",
+      "name": "SPI_I2S_GetFlagStatus"
+    },
+    {
+      "address": "0x80177ac",
+      "size": 8,
+      "kind": "T",
+      "name": "SPI_I2S_ClearFlag"
+    },
+    {
+      "address": "0x80177b4",
+      "size": 24,
+      "kind": "T",
+      "name": "TIM_Cmd"
+    },
+    {
+      "address": "0x80177cc",
+      "size": 28,
+      "kind": "T",
+      "name": "TIM_CtrlPWMOutputs"
+    },
+    {
+      "address": "0x80177e8",
+      "size": 18,
+      "kind": "T",
+      "name": "TIM_ITConfig"
+    },
+    {
+      "address": "0x80177fa",
+      "size": 4,
+      "kind": "T",
+      "name": "TIM_GenerateEvent"
+    },
+    {
+      "address": "0x80177fe",
+      "size": 14,
+      "kind": "T",
+      "name": "TIM_InternalClockConfig"
+    },
+    {
+      "address": "0x801780c",
+      "size": 24,
+      "kind": "T",
+      "name": "TIM_ARRPreloadConfig"
+    },
+    {
+      "address": "0x8017824",
+      "size": 16,
+      "kind": "T",
+      "name": "TIM_OC1PreloadConfig"
+    },
+    {
+      "address": "0x8017834",
+      "size": 20,
+      "kind": "T",
+      "name": "TIM_OC2PreloadConfig"
+    },
+    {
+      "address": "0x8017848",
+      "size": 16,
+      "kind": "T",
+      "name": "TIM_OC3PreloadConfig"
+    },
+    {
+      "address": "0x8017858",
+      "size": 20,
+      "kind": "T",
+      "name": "TIM_OC4PreloadConfig"
+    },
+    {
+      "address": "0x801786c",
+      "size": 16,
+      "kind": "T",
+      "name": "TIM_OC1PolarityConfig"
+    },
+    {
+      "address": "0x801787c",
+      "size": 20,
+      "kind": "T",
+      "name": "TIM_OC2PolarityConfig"
+    },
+    {
+      "address": "0x8017890",
+      "size": 20,
+      "kind": "T",
+      "name": "TIM_OC3PolarityConfig"
+    },
+    {
+      "address": "0x80178a4",
+      "size": 20,
+      "kind": "T",
+      "name": "TIM_OC4PolarityConfig"
+    },
+    {
+      "address": "0x80178b8",
+      "size": 22,
+      "kind": "T",
+      "name": "TIM_SelectOnePulseMode"
+    },
+    {
+      "address": "0x80178ce",
+      "size": 4,
+      "kind": "T",
+      "name": "TIM_SetCompare1"
+    },
+    {
+      "address": "0x80178d2",
+      "size": 4,
+      "kind": "T",
+      "name": "TIM_SetCompare2"
+    },
+    {
+      "address": "0x80178d6",
+      "size": 4,
+      "kind": "T",
+      "name": "TIM_SetCompare3"
+    },
+    {
+      "address": "0x80178da",
+      "size": 6,
+      "kind": "T",
+      "name": "TIM_SetCompare4"
+    },
+    {
+      "address": "0x80178e0",
+      "size": 22,
+      "kind": "T",
+      "name": "TIM_SetIC1Prescaler"
+    },
+    {
+      "address": "0x80178f6",
+      "size": 26,
+      "kind": "T",
+      "name": "TIM_SetIC2Prescaler"
+    },
+    {
+      "address": "0x8017910",
+      "size": 22,
+      "kind": "T",
+      "name": "TIM_SetIC3Prescaler"
+    },
+    {
+      "address": "0x8017926",
+      "size": 26,
+      "kind": "T",
+      "name": "TIM_SetIC4Prescaler"
+    },
+    {
+      "address": "0x8017940",
+      "size": 6,
+      "kind": "T",
+      "name": "TIM_GetCapture1"
+    },
+    {
+      "address": "0x8017946",
+      "size": 6,
+      "kind": "T",
+      "name": "TIM_GetCapture2"
+    },
+    {
+      "address": "0x801794c",
+      "size": 6,
+      "kind": "T",
+      "name": "TIM_GetCapture3"
+    },
+    {
+      "address": "0x8017952",
+      "size": 8,
+      "kind": "T",
+      "name": "TIM_GetCapture4"
+    },
+    {
+      "address": "0x801795a",
+      "size": 6,
+      "kind": "T",
+      "name": "TIM_GetCounter"
+    },
+    {
+      "address": "0x8017960",
+      "size": 22,
+      "kind": "T",
+      "name": "TIM_GetITStatus"
+    },
+    {
+      "address": "0x8017976",
+      "size": 8,
+      "kind": "T",
+      "name": "TIM_ClearITPendingBit"
+    },
+    {
+      "address": "0x801797e",
+      "size": 24,
+      "kind": "T",
+      "name": "USART_Cmd"
+    },
+    {
+      "address": "0x8017996",
+      "size": 50,
+      "kind": "T",
+      "name": "USART_ITConfig"
+    },
+    {
+      "address": "0x80179c8",
+      "size": 2,
+      "kind": "T",
+      "name": "NOP_Process"
+    },
+    {
+      "address": "0x80179ca",
+      "size": 48,
+      "kind": "T",
+      "name": "UserToPMABufferCopy"
+    },
+    {
+      "address": "0x80179fa",
+      "size": 36,
+      "kind": "T",
+      "name": "PMAToUserBufferCopy"
+    },
+    {
+      "address": "0x8017a1e",
+      "size": 28,
+      "kind": "T",
+      "name": "SetEPType"
+    },
+    {
+      "address": "0x8017a3a",
+      "size": 50,
+      "kind": "T",
+      "name": "SetEPTxStatus"
+    },
+    {
+      "address": "0x8017a6c",
+      "size": 50,
+      "kind": "T",
+      "name": "SetEPRxStatus"
+    },
+    {
+      "address": "0x8017a9e",
+      "size": 18,
+      "kind": "T",
+      "name": "GetEPTxStatus"
+    },
+    {
+      "address": "0x8017ab0",
+      "size": 18,
+      "kind": "T",
+      "name": "GetEPRxStatus"
+    },
+    {
+      "address": "0x8017ac2",
+      "size": 38,
+      "kind": "T",
+      "name": "SetEPTxValid"
+    },
+    {
+      "address": "0x8017ae8",
+      "size": 38,
+      "kind": "T",
+      "name": "SetEPRxValid"
+    },
+    {
+      "address": "0x8017b0e",
+      "size": 32,
+      "kind": "T",
+      "name": "Clear_Status_Out"
+    },
+    {
+      "address": "0x8017b2e",
+      "size": 38,
+      "kind": "T",
+      "name": "ClearDTOG_RX"
+    },
+    {
+      "address": "0x8017b54",
+      "size": 38,
+      "kind": "T",
+      "name": "ClearDTOG_TX"
+    },
+    {
+      "address": "0x8017b7a",
+      "size": 10,
+      "kind": "T",
+      "name": "ByteSwap"
+    },
+    {
+      "address": "0x8017b84",
+      "size": 16,
+      "kind": "T",
+      "name": "ulPortSetInterruptMask"
+    },
+    {
+      "address": "0x8017b94",
+      "size": 8,
+      "kind": "t",
+      "name": "prvTaskExitError"
+    },
+    {
+      "address": "0x8017b9c",
+      "size": 6,
+      "kind": "T",
+      "name": "vPortClearInterruptMask"
+    },
+    {
+      "address": "0x8017ba2",
+      "size": 6,
+      "kind": "T",
+      "name": "pvPortMalloc"
+    },
+    {
+      "address": "0x8017ba8",
+      "size": 2,
+      "kind": "T",
+      "name": "vPortFree"
+    },
+    {
+      "address": "0x8017baa",
+      "size": 4,
+      "kind": "T",
+      "name": "PIOS_MPU6000_driver_Reset"
+    },
+    {
+      "address": "0x8017bae",
+      "size": 20,
+      "kind": "T",
+      "name": "PIOS_MPU6000_ReadID"
+    },
+    {
+      "address": "0x8017bc2",
+      "size": 34,
+      "kind": "T",
+      "name": "PIOS_MPU6000_driver_Test"
+    },
+    {
+      "address": "0x8017be4",
+      "size": 208,
+      "kind": "t",
+      "name": "check_stabilization_settings"
+    },
+    {
+      "address": "0x8017cb4",
+      "size": 318,
+      "kind": "T",
+      "name": "Quaternion2R"
+    },
+    {
+      "address": "0x8017df2",
+      "size": 94,
+      "kind": "T",
+      "name": "CrossProduct"
+    },
+    {
+      "address": "0x8017e50",
+      "size": 18,
+      "kind": "T",
+      "name": "quat_copy"
+    },
+    {
+      "address": "0x8017e62",
+      "size": 148,
+      "kind": "T",
+      "name": "rot_mult"
+    },
+    {
+      "address": "0x8017ef6",
+      "size": 4,
+      "kind": "T",
+      "name": "sin_lookup_initalize"
+    },
+    {
+      "address": "0x8017efa",
+      "size": 12,
+      "kind": "T",
+      "name": "pid_zero"
+    },
+    {
+      "address": "0x8017f06",
+      "size": 14,
+      "kind": "T",
+      "name": "pid_configure"
+    },
+    {
+      "address": "0x8017f14",
+      "size": 40,
+      "kind": "t",
+      "name": "logfs_get_addr.isra.0"
+    },
+    {
+      "address": "0x8017f3c",
+      "size": 90,
+      "kind": "t",
+      "name": "logfs_erase_arena"
+    },
+    {
+      "address": "0x8017f96",
+      "size": 92,
+      "kind": "t",
+      "name": "logfs_delete_object"
+    },
+    {
+      "address": "0x8017ff2",
+      "size": 150,
+      "kind": "T",
+      "name": "PIOS_FLASHFS_ObjLoad"
+    },
+    {
+      "address": "0x8018088",
+      "size": 62,
+      "kind": "T",
+      "name": "PIOS_FLASHFS_ObjDelete"
+    },
+    {
+      "address": "0x80180c6",
+      "size": 156,
+      "kind": "T",
+      "name": "PIOS_FLASHFS_Format"
+    },
+    {
+      "address": "0x8018162",
+      "size": 34,
+      "kind": "T",
+      "name": "PIOS_FLASHFS_GetStats"
+    },
+    {
+      "address": "0x8018184",
+      "size": 4,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_StartTransaction"
+    },
+    {
+      "address": "0x8018188",
+      "size": 4,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_EndTransaction"
+    },
+    {
+      "address": "0x801818c",
+      "size": 50,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_ClaimBus"
+    },
+    {
+      "address": "0x80181be",
+      "size": 24,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_ReleaseBus"
+    },
+    {
+      "address": "0x80181d6",
+      "size": 54,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_WriteEnable"
+    },
+    {
+      "address": "0x801820c",
+      "size": 192,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_WriteChunks"
+    },
+    {
+      "address": "0x80182cc",
+      "size": 82,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_ReadStatus"
+    },
+    {
+      "address": "0x801831e",
+      "size": 248,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_ReadData"
+    },
+    {
+      "address": "0x8018416",
+      "size": 198,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_WriteData"
+    },
+    {
+      "address": "0x80184dc",
+      "size": 126,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_EraseChip"
+    },
+    {
+      "address": "0x801855a",
+      "size": 120,
+      "kind": "t",
+      "name": "PIOS_Flash_Jedec_EraseSector"
+    },
+    {
+      "address": "0x80185d2",
+      "size": 14,
+      "kind": "T",
+      "name": "PIOS_IAP_Init"
+    },
+    {
+      "address": "0x80185e0",
+      "size": 10,
+      "kind": "T",
+      "name": "PIOS_IAP_SetRequest1"
+    },
+    {
+      "address": "0x80185ea",
+      "size": 10,
+      "kind": "T",
+      "name": "PIOS_IAP_SetRequest2"
+    },
+    {
+      "address": "0x80185f4",
+      "size": 6,
+      "kind": "T",
+      "name": "PIOS_IAP_ReadBootCount"
+    },
+    {
+      "address": "0x80185fa",
+      "size": 8,
+      "kind": "T",
+      "name": "PIOS_IAP_WriteBootCount"
+    },
+    {
+      "address": "0x8018602",
+      "size": 96,
+      "kind": "t",
+      "name": "PIOS_COM_SendBufferNonBlockingInternal"
+    },
+    {
+      "address": "0x8018662",
+      "size": 34,
+      "kind": "T",
+      "name": "PIOS_COM_ChangeBaud"
+    },
+    {
+      "address": "0x8018684",
+      "size": 70,
+      "kind": "T",
+      "name": "PIOS_COM_SendBufferNonBlocking"
+    },
+    {
+      "address": "0x80186ca",
+      "size": 200,
+      "kind": "T",
+      "name": "PIOS_COM_SendBuffer"
+    },
+    {
+      "address": "0x8018792",
+      "size": 110,
+      "kind": "T",
+      "name": "PIOS_COM_ReceiveBuffer"
+    },
+    {
+      "address": "0x8018800",
+      "size": 26,
+      "kind": "T",
+      "name": "PIOS_COM_Available"
+    },
+    {
+      "address": "0x801881a",
+      "size": 26,
+      "kind": "T",
+      "name": "PIOS_DELTATIME_Init"
+    },
+    {
+      "address": "0x8018834",
+      "size": 32,
+      "kind": "T",
+      "name": "PIOS_USB_UTIL_AsciiToUtf8"
+    },
+    {
+      "address": "0x8018854",
+      "size": 30,
+      "kind": "t",
+      "name": "CallbackSchedulerTask"
+    },
+    {
+      "address": "0x8018872",
+      "size": 22,
+      "kind": "T",
+      "name": "PIOS_CALLBACKSCHEDULER_Dispatch"
+    },
+    {
+      "address": "0x8018888",
+      "size": 4,
+      "kind": "T",
+      "name": "pios_malloc"
+    },
+    {
+      "address": "0x801888c",
+      "size": 10,
+      "kind": "T",
+      "name": "fifoBuf_getSize"
+    },
+    {
+      "address": "0x8018896",
+      "size": 22,
+      "kind": "T",
+      "name": "fifoBuf_getUsed"
+    },
+    {
+      "address": "0x80188ac",
+      "size": 16,
+      "kind": "T",
+      "name": "fifoBuf_getFree"
+    },
+    {
+      "address": "0x80188bc",
+      "size": 8,
+      "kind": "T",
+      "name": "fifoBuf_clearData"
+    },
+    {
+      "address": "0x80188c4",
+      "size": 118,
+      "kind": "T",
+      "name": "fifoBuf_getData"
+    },
+    {
+      "address": "0x801893a",
+      "size": 44,
+      "kind": "T",
+      "name": "fifoBuf_putByte"
+    },
+    {
+      "address": "0x8018966",
+      "size": 118,
+      "kind": "T",
+      "name": "fifoBuf_putData"
+    },
+    {
+      "address": "0x80189dc",
+      "size": 12,
+      "kind": "T",
+      "name": "fifoBuf_init"
+    },
+    {
+      "address": "0x80189e8",
+      "size": 18,
+      "kind": "t",
+      "name": "AttitudeStateGet"
+    },
+    {
+      "address": "0x80189fa",
+      "size": 18,
+      "kind": "t",
+      "name": "AttitudeStateSet"
+    },
+    {
+      "address": "0x8018a0c",
+      "size": 72,
+      "kind": "t",
+      "name": "boundf"
+    },
+    {
+      "address": "0x8018a54",
+      "size": 72,
+      "kind": "t",
+      "name": "boundf"
+    },
+    {
+      "address": "0x8018a9c",
+      "size": 136,
+      "kind": "t",
+      "name": "StabilizationDesiredUpdatedCb"
+    },
+    {
+      "address": "0x8018b24",
+      "size": 104,
+      "kind": "t",
+      "name": "setFailsafe"
+    },
+    {
+      "address": "0x8018b8c",
+      "size": 36,
+      "kind": "t",
+      "name": "validInputRange"
+    },
+    {
+      "address": "0x8018bb0",
+      "size": 56,
+      "kind": "t",
+      "name": "applyDeadband"
+    },
+    {
+      "address": "0x8018be8",
+      "size": 22,
+      "kind": "t",
+      "name": "AccessoryDesiredInstSet"
+    },
+    {
+      "address": "0x8018bfe",
+      "size": 22,
+      "kind": "T",
+      "name": "ReceiverInitialize"
+    },
+    {
+      "address": "0x8018c14",
+      "size": 22,
+      "kind": "t",
+      "name": "AccessoryDesiredInstGet"
+    },
+    {
+      "address": "0x8018c2a",
+      "size": 40,
+      "kind": "t",
+      "name": "setArmedIfChanged"
+    },
+    {
+      "address": "0x8018c52",
+      "size": 4,
+      "kind": "t",
+      "name": "configurationUpdatedCb"
+    },
+    {
+      "address": "0x8018c56",
+      "size": 62,
+      "kind": "T",
+      "name": "manualHandler"
+    },
+    {
+      "address": "0x8018c94",
+      "size": 422,
+      "kind": "T",
+      "name": "stabilizedHandler"
+    },
+    {
+      "address": "0x8018e3a",
+      "size": 18,
+      "kind": "t",
+      "name": "FirmwareIAPObjGet"
+    },
+    {
+      "address": "0x8018e4c",
+      "size": 18,
+      "kind": "t",
+      "name": "FirmwareIAPObjSet"
+    },
+    {
+      "address": "0x8018e5e",
+      "size": 30,
+      "kind": "t",
+      "name": "transmitData"
+    },
+    {
+      "address": "0x8018e7c",
+      "size": 4,
+      "kind": "T",
+      "name": "CameraStabStart"
+    },
+    {
+      "address": "0x8018e80",
+      "size": 76,
+      "kind": "T",
+      "name": "checksum_ubx_message"
+    },
+    {
+      "address": "0x8018ecc",
+      "size": 4,
+      "kind": "T",
+      "name": "TxPIDStart"
+    },
+    {
+      "address": "0x8018ed0",
+      "size": 30,
+      "kind": "t",
+      "name": "updateUint8"
+    },
+    {
+      "address": "0x8018eee",
+      "size": 30,
+      "kind": "t",
+      "name": "updateInt8"
+    },
+    {
+      "address": "0x8018f0c",
+      "size": 32,
+      "kind": "T",
+      "name": "memcmp"
+    },
+    {
+      "address": "0x8018f2c",
+      "size": 22,
+      "kind": "T",
+      "name": "memcpy"
+    },
+    {
+      "address": "0x8018f42",
+      "size": 16,
+      "kind": "T",
+      "name": "memset"
+    },
+    {
+      "address": "0x8018f54",
+      "size": 20,
+      "kind": "T",
+      "name": "pios_pwm_with_ppm_cfg"
+    },
+    {
+      "address": "0x8018f68",
+      "size": 60,
+      "kind": "t",
+      "name": "pios_usart_sbus_main_cfg"
+    },
+    {
+      "address": "0x8018fa4",
+      "size": 60,
+      "kind": "t",
+      "name": "pios_usart_generic_main_cfg"
+    },
+    {
+      "address": "0x8018fe0",
+      "size": 44,
+      "kind": "T",
+      "name": "pios_servo_rcvr_cfg"
+    },
+    {
+      "address": "0x801900c",
+      "size": 20,
+      "kind": "t",
+      "name": "tim_4_cfg"
+    },
+    {
+      "address": "0x8019020",
+      "size": 60,
+      "kind": "t",
+      "name": "pios_usart_hkosd_main_cfg"
+    },
+    {
+      "address": "0x801905c",
+      "size": 144,
+      "kind": "t",
+      "name": "pios_tim_servoport_all_pins"
+    },
+    {
+      "address": "0x80190ec",
+      "size": 28,
+      "kind": "t",
+      "name": "pios_usb_main_cfg_cc3d"
+    },
+    {
+      "address": "0x8019108",
+      "size": 20,
+      "kind": "t",
+      "name": "tim_2_cfg"
+    },
+    {
+      "address": "0x801911c",
+      "size": 180,
+      "kind": "t",
+      "name": "pios_spi_flash_accel_cfg_cc"
+    },
+    {
+      "address": "0x80191e8",
+      "size": 12,
+      "kind": "t",
+      "name": "pios_dsm_main_cfg"
+    },
+    {
+      "address": "0x80191f4",
+      "size": 44,
+      "kind": "T",
+      "name": "pios_servo_cfg"
+    },
+    {
+      "address": "0x8019220",
+      "size": 180,
+      "kind": "t",
+      "name": "pios_spi_flash_accel_cfg_cc3d"
+    },
+    {
+      "address": "0x80192ec",
+      "size": 60,
+      "kind": "t",
+      "name": "pios_usart_generic_flexi_cfg"
+    },
+    {
+      "address": "0x8019328",
+      "size": 12,
+      "kind": "t",
+      "name": "pios_dsm_flexi_cfg"
+    },
+    {
+      "address": "0x8019334",
+      "size": 20,
+      "kind": "t",
+      "name": "pios_leds_cc3d"
+    },
+    {
+      "address": "0x8019348",
+      "size": 144,
+      "kind": "t",
+      "name": "pios_tim_rcvrport_all_channels"
+    },
+    {
+      "address": "0x80193d8",
+      "size": 20,
+      "kind": "t",
+      "name": "tim_1_cfg"
+    },
+    {
+      "address": "0x80193ec",
+      "size": 180,
+      "kind": "t",
+      "name": "pios_spi_gyro_cfg"
+    },
+    {
+      "address": "0x80194ac",
+      "size": 20,
+      "kind": "T",
+      "name": "pios_ppm_cfg"
+    },
+    {
+      "address": "0x80194c0",
+      "size": 128,
+      "kind": "t",
+      "name": "pios_adc_cfg"
+    },
+    {
+      "address": "0x8019540",
+      "size": 8,
+      "kind": "t",
+      "name": "pios_led_cfg_cc3d"
+    },
+    {
+      "address": "0x8019548",
+      "size": 20,
+      "kind": "T",
+      "name": "pios_ppm_pin8_cfg"
+    },
+    {
+      "address": "0x801955c",
+      "size": 28,
+      "kind": "t",
+      "name": "flashfs_w25x_cfg"
+    },
+    {
+      "address": "0x8019578",
+      "size": 20,
+      "kind": "t",
+      "name": "pios_mpu6000_cfg"
+    },
+    {
+      "address": "0x801958c",
+      "size": 60,
+      "kind": "t",
+      "name": "pios_usart_hkosd_flexi_cfg"
+    },
+    {
+      "address": "0x80195c8",
+      "size": 60,
+      "kind": "t",
+      "name": "pios_usart_dsm_main_cfg"
+    },
+    {
+      "address": "0x8019604",
+      "size": 20,
+      "kind": "t",
+      "name": "pios_leds_cc"
+    },
+    {
+      "address": "0x8019618",
+      "size": 28,
+      "kind": "t",
+      "name": "flashfs_m25p_cfg"
+    },
+    {
+      "address": "0x8019634",
+      "size": 60,
+      "kind": "t",
+      "name": "pios_usart_dsm_flexi_cfg"
+    },
+    {
+      "address": "0x8019670",
+      "size": 20,
+      "kind": "t",
+      "name": "pios_rtc_main_cfg"
+    },
+    {
+      "address": "0x8019684",
+      "size": 20,
+      "kind": "T",
+      "name": "pios_pwm_cfg"
+    },
+    {
+      "address": "0x8019698",
+      "size": 20,
+      "kind": "t",
+      "name": "tim_3_cfg"
+    },
+    {
+      "address": "0x80196ac",
+      "size": 8,
+      "kind": "t",
+      "name": "pios_led_cfg_cc"
+    },
+    {
+      "address": "0x80196b4",
+      "size": 28,
+      "kind": "t",
+      "name": "pios_usb_main_cfg_cc"
+    },
+    {
+      "address": "0x80196d0",
+      "size": 240,
+      "kind": "t",
+      "name": "pios_tim_servoport_rcvrport_pins"
+    },
+    {
+      "address": "0x80197c0",
+      "size": 24,
+      "kind": "t",
+      "name": "pios_sbus_cfg"
+    },
+    {
+      "address": "0x80197d8",
+      "size": 76,
+      "kind": "T",
+      "name": "pios_bkp_registers_map"
+    },
+    {
+      "address": "0x8019824",
+      "size": 12,
+      "kind": "T",
+      "name": "pios_dsm_rcvr_driver"
+    },
+    {
+      "address": "0x8019830",
+      "size": 12,
+      "kind": "T",
+      "name": "pios_ppm_rcvr_driver"
+    },
+    {
+      "address": "0x801983c",
+      "size": 8,
+      "kind": "t",
+      "name": "tim_callbacks"
+    },
+    {
+      "address": "0x8019844",
+      "size": 12,
+      "kind": "T",
+      "name": "pios_pwm_rcvr_driver"
+    },
+    {
+      "address": "0x8019850",
+      "size": 8,
+      "kind": "t",
+      "name": "tim_callbacks"
+    },
+    {
+      "address": "0x8019858",
+      "size": 28,
+      "kind": "T",
+      "name": "pios_usart_com_driver"
+    },
+    {
+      "address": "0x8019874",
+      "size": 28,
+      "kind": "T",
+      "name": "pios_usb_cdc_com_driver"
+    },
+    {
+      "address": "0x8019890",
+      "size": 28,
+      "kind": "T",
+      "name": "pios_usb_hid_com_driver"
+    },
+    {
+      "address": "0x80198ac",
+      "size": 28,
+      "kind": "T",
+      "name": "PIOS_MPU6000_Driver"
+    },
+    {
+      "address": "0x80198c8",
+      "size": 100,
+      "kind": "t",
+      "name": "CSWTCH.27"
+    },
+    {
+      "address": "0x801992c",
+      "size": 100,
+      "kind": "t",
+      "name": "CSWTCH.29"
+    },
+    {
+      "address": "0x8019990",
+      "size": 12,
+      "kind": "T",
+      "name": "pios_sbus_rcvr_driver"
+    },
+    {
+      "address": "0x801999c",
+      "size": 720,
+      "kind": "T",
+      "name": "sin_table"
+    },
+    {
+      "address": "0x8019c6c",
+      "size": 28,
+      "kind": "T",
+      "name": "pios_jedec_flash_driver"
+    },
+    {
+      "address": "0x8019c88",
+      "size": 8,
+      "kind": "t",
+      "name": "handler_STABILIZED"
+    },
+    {
+      "address": "0x8019c90",
+      "size": 8,
+      "kind": "t",
+      "name": "handler_MANUAL"
+    },
+    {
+      "address": "0x8019c98",
+      "size": 32,
+      "kind": "T",
+      "name": "ubx_handler_table"
+    },
+    {
+      "address": "0x8019cd8",
+      "size": 8,
+      "kind": "t",
+      "name": "halF"
+    },
+    {
+      "address": "0x8019ce0",
+      "size": 8,
+      "kind": "t",
+      "name": "ln2LO"
+    },
+    {
+      "address": "0x8019ce8",
+      "size": 8,
+      "kind": "t",
+      "name": "ln2HI"
+    },
+    {
+      "address": "0x8019cf0",
+      "size": 8,
+      "kind": "t",
+      "name": "Zero"
+    },
+    {
+      "address": "0x8019cf8",
+      "size": 128,
+      "kind": "t",
+      "name": "npio2_hw"
+    },
+    {
+      "address": "0x8019d78",
+      "size": 792,
+      "kind": "t",
+      "name": "two_over_pi"
+    },
+    {
+      "address": "0x801a090",
+      "size": 12,
+      "kind": "t",
+      "name": "init_jk"
+    },
+    {
+      "address": "0x801a09c",
+      "size": 44,
+      "kind": "t",
+      "name": "PIo2"
+    },
+    {
+      "address": "0x801a0c8",
+      "size": 16,
+      "kind": "t",
+      "name": "atanlo"
+    },
+    {
+      "address": "0x801a0d8",
+      "size": 16,
+      "kind": "t",
+      "name": "atanhi"
+    },
+    {
+      "address": "0x801a0e8",
+      "size": 10,
+      "kind": "t",
+      "name": "tim_1_2_3_4_time_base"
+    },
+    {
+      "address": "0x801a0f2",
+      "size": 6,
+      "kind": "T",
+      "name": "pios_iap_cmd_list"
+    },
+    {
+      "address": "0x801a0fc",
+      "size": 28,
+      "kind": "t",
+      "name": "usb_product_id"
+    },
+    {
+      "address": "0x801a118",
+      "size": 28,
+      "kind": "t",
+      "name": "usb_vendor_id"
+    },
+    {
+      "address": "0x801a134",
+      "size": 4,
+      "kind": "t",
+      "name": "usb_lang_id"
+    },
+    {
+      "address": "0x801a13f",
+      "size": 2,
+      "kind": "T",
+      "name": "pios_usb_rctx_cfg"
+    },
+    {
+      "address": "0x801a141",
+      "size": 3,
+      "kind": "T",
+      "name": "pios_usb_hid_cfg"
+    },
+    {
+      "address": "0x801a144",
+      "size": 5,
+      "kind": "T",
+      "name": "pios_usb_cdc_cfg"
+    },
+    {
+      "address": "0x801a149",
+      "size": 8,
+      "kind": "t",
+      "name": "defMetadata"
+    },
+    {
+      "address": "0x801a158",
+      "size": 21,
+      "kind": "t",
+      "name": "CSWTCH.46"
+    },
+    {
+      "address": "0x801a16d",
+      "size": 49,
+      "kind": "T",
+      "name": "pios_flash_jedec_catalog"
+    },
+    {
+      "address": "0x801a19e",
+      "size": 256,
+      "kind": "t",
+      "name": "crc_table"
+    },
+    {
+      "address": "0x801a29e",
+      "size": 89,
+      "kind": "t",
+      "name": "hid_report_desc"
+    },
+    {
+      "address": "0x801a2f7",
+      "size": 18,
+      "kind": "t",
+      "name": "device_desc"
+    },
+    {
+      "address": "0x801a309",
+      "size": 107,
+      "kind": "t",
+      "name": "config_hid_cdc"
+    },
+    {
+      "address": "0x801a3c0",
+      "size": 0,
+      "kind": "R",
+      "name": "__start__exti"
+    },
+    {
+      "address": "0x801a3c0",
+      "size": 40,
+      "kind": "r",
+      "name": "pios_exti_mpu6000_cfg"
+    },
+    {
+      "address": "0x801a3e8",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_SystemModInitialize"
+    },
+    {
+      "address": "0x801a3e8",
+      "size": 0,
+      "kind": "T",
+      "name": "__module_initcall_start"
+    },
+    {
+      "address": "0x801a3e8",
+      "size": 0,
+      "kind": "R",
+      "name": "__stop__exti"
+    },
+    {
+      "address": "0x801a3f0",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_AttitudeInitialize"
+    },
+    {
+      "address": "0x801a3f8",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_StabilizationInitialize"
+    },
+    {
+      "address": "0x801a400",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_ActuatorInitialize"
+    },
+    {
+      "address": "0x801a408",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_ReceiverInitialize"
+    },
+    {
+      "address": "0x801a410",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_ManualControlInitialize"
+    },
+    {
+      "address": "0x801a418",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_FirmwareIAPInitialize"
+    },
+    {
+      "address": "0x801a420",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_TelemetryInitialize"
+    },
+    {
+      "address": "0x801a428",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_CameraStabInitialize"
+    },
+    {
+      "address": "0x801a430",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_comUsbBridgeInitialize"
+    },
+    {
+      "address": "0x801a438",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_GPSInitialize"
+    },
+    {
+      "address": "0x801a440",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_TxPIDInitialize"
+    },
+    {
+      "address": "0x801a448",
+      "size": 8,
+      "kind": "t",
+      "name": "__initcall_osdoutputInitialize"
+    },
+    {
+      "address": "0x801a450",
+      "size": 0,
+      "kind": "T",
+      "name": "__module_initcall_end"
+    },
+    {
+      "address": "0x801a450",
+      "size": 0,
+      "kind": "b",
+      "name": "_etext"
+    },
+    {
+      "address": "0x801a450",
+      "size": 0,
+      "kind": "B",
+      "name": "_sidata"
+    },
+    {
+      "address": "0x20000000",
+      "size": 0,
+      "kind": "B",
+      "name": "_irq_stack_end"
+    },
+    {
+      "address": "0x2000023c",
+      "size": 0,
+      "kind": "B",
+      "name": "_irq_stack_top"
+    },
+    {
+      "address": "0x20000240",
+      "size": 0,
+      "kind": "D",
+      "name": "_sdata"
+    },
+    {
+      "address": "0x20000240",
+      "size": 4,
+      "kind": "d",
+      "name": "seed.10005"
+    },
+    {
+      "address": "0x20000244",
+      "size": 4,
+      "kind": "d",
+      "name": "xNextTaskUnblockTime"
+    },
+    {
+      "address": "0x20000248",
+      "size": 28,
+      "kind": "D",
+      "name": "pEpInt_IN"
+    },
+    {
+      "address": "0x20000264",
+      "size": 28,
+      "kind": "D",
+      "name": "pEpInt_OUT"
+    },
+    {
+      "address": "0x20000280",
+      "size": 48,
+      "kind": "D",
+      "name": "Device_Property"
+    },
+    {
+      "address": "0x200002b0",
+      "size": 36,
+      "kind": "D",
+      "name": "User_Standard_Requests"
+    },
+    {
+      "address": "0x200002d4",
+      "size": 4,
+      "kind": "d",
+      "name": "uxCriticalNesting"
+    },
+    {
+      "address": "0x200002d8",
+      "size": 4,
+      "kind": "d",
+      "name": "currentTOTAL_HEAP_SIZE"
+    },
+    {
+      "address": "0x200002dc",
+      "size": 4,
+      "kind": "d",
+      "name": "deriv_gamma"
+    },
+    {
+      "address": "0x200002e0",
+      "size": 4,
+      "kind": "d",
+      "name": "deriv_tau"
+    },
+    {
+      "address": "0x200002e4",
+      "size": 4,
+      "kind": "d",
+      "name": "temperature"
+    },
+    {
+      "address": "0x200002e8",
+      "size": 16,
+      "kind": "d",
+      "name": "q"
+    },
+    {
+      "address": "0x200002f8",
+      "size": 4,
+      "kind": "d",
+      "name": "cruisecontrol_factor"
+    },
+    {
+      "address": "0x200002fc",
+      "size": 4,
+      "kind": "d",
+      "name": "cur_flight_mode"
+    },
+    {
+      "address": "0x20000300",
+      "size": 96,
+      "kind": "d",
+      "name": "impure_data"
+    },
+    {
+      "address": "0x20000360",
+      "size": 4,
+      "kind": "D",
+      "name": "_impure_ptr"
+    },
+    {
+      "address": "0x20000364",
+      "size": 1,
+      "kind": "d",
+      "name": "lastFlightMode.9960"
+    },
+    {
+      "address": "0x20000365",
+      "size": 1,
+      "kind": "d",
+      "name": "currentAlarmLevel"
+    },
+    {
+      "address": "0x20000366",
+      "size": 56,
+      "kind": "d",
+      "name": "usb_serial_number"
+    },
+    {
+      "address": "0x2000039e",
+      "size": 1,
+      "kind": "d",
+      "name": "resolution.9254"
+    },
+    {
+      "address": "0x2000039f",
+      "size": 16,
+      "kind": "d",
+      "name": "pios_exti_line_to_cfg_map"
+    },
+    {
+      "address": "0x200003af",
+      "size": 10,
+      "kind": "D",
+      "name": "uart_state"
+    },
+    {
+      "address": "0x200003b9",
+      "size": 7,
+      "kind": "d",
+      "name": "line_coding"
+    },
+    {
+      "address": "0x200003c0",
+      "size": 1,
+      "kind": "D",
+      "name": "fSuspendEnabled"
+    },
+    {
+      "address": "0x200003c1",
+      "size": 2,
+      "kind": "D",
+      "name": "Device_Table"
+    },
+    {
+      "address": "0x200003c3",
+      "size": 4,
+      "kind": "d",
+      "name": "ADCPrescTable"
+    },
+    {
+      "address": "0x200003c7",
+      "size": 16,
+      "kind": "d",
+      "name": "APBAHBPrescTable"
+    },
+    {
+      "address": "0x200003d7",
+      "size": 1,
+      "kind": "d",
+      "name": "bias_correct_gyro"
+    },
+    {
+      "address": "0x200003d8",
+      "size": 4,
+      "kind": "d",
+      "name": "previous_mode"
+    },
+    {
+      "address": "0x200003dc",
+      "size": 4,
+      "kind": "d",
+      "name": "previous_mode"
+    },
+    {
+      "address": "0x200003e0",
+      "size": 1,
+      "kind": "d",
+      "name": "firstRun.11509"
+    },
+    {
+      "address": "0x200003e1",
+      "size": 1,
+      "kind": "d",
+      "name": "sync.10409"
+    },
+    {
+      "address": "0x200003e2",
+      "size": 1,
+      "kind": "D",
+      "name": "__fdlib_version"
+    },
+    {
+      "address": "0x200003e4",
+      "size": 0,
+      "kind": "D",
+      "name": "__start__uavo_handles"
+    },
+    {
+      "address": "0x200003e4",
+      "size": 0,
+      "kind": "D",
+      "name": "_edata"
+    },
+    {
+      "address": "0x200003e4",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x200003e8",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x200003ec",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x200003f0",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x200003f4",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x200003f8",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x200003fc",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000400",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000404",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000408",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x2000040c",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000410",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000414",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000418",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x2000041c",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000420",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000424",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000428",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x2000042c",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000430",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000434",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000438",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x2000043c",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000440",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000444",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000448",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x2000044c",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000450",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000454",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000458",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x2000045c",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000460",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000464",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000468",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x2000046c",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000470",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000474",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000478",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x2000047c",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000480",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000484",
+      "size": 4,
+      "kind": "d",
+      "name": "handle"
+    },
+    {
+      "address": "0x20000488",
+      "size": 0,
+      "kind": "D",
+      "name": "__stop__uavo_handles"
+    },
+    {
+      "address": "0x20000488",
+      "size": 0,
+      "kind": "B",
+      "name": "_sbss"
+    },
+    {
+      "address": "0x20000488",
+      "size": 4,
+      "kind": "b",
+      "name": "lastRunTimestamp.9956"
+    },
+    {
+      "address": "0x2000048c",
+      "size": 8,
+      "kind": "b",
+      "name": "currentFlightStatus"
+    },
+    {
+      "address": "0x20000494",
+      "size": 4,
+      "kind": "b",
+      "name": "systemTaskHandle"
+    },
+    {
+      "address": "0x20000498",
+      "size": 4,
+      "kind": "b",
+      "name": "objectPersistenceQueue"
+    },
+    {
+      "address": "0x2000049c",
+      "size": 33,
+      "kind": "b",
+      "name": "bootHwSettings"
+    },
+    {
+      "address": "0x200004c0",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_user_fs_id"
+    },
+    {
+      "address": "0x200004c4",
+      "size": 4,
+      "kind": "b",
+      "name": "pios_spi_flash_accel_id"
+    },
+    {
+      "address": "0x200004c8",
+      "size": 4,
+      "kind": "b",
+      "name": "pios_spi_gyro_id"
+    },
+    {
+      "address": "0x200004cc",
+      "size": 4,
+      "kind": "b",
+      "name": "lock"
+    },
+    {
+      "address": "0x200004d0",
+      "size": 4,
+      "kind": "b",
+      "name": "mutex"
+    },
+    {
+      "address": "0x200004d4",
+      "size": 16,
+      "kind": "b",
+      "name": "stats"
+    },
+    {
+      "address": "0x200004e4",
+      "size": 8,
+      "kind": "b",
+      "name": "mStats"
+    },
+    {
+      "address": "0x200004ec",
+      "size": 4,
+      "kind": "b",
+      "name": "mMutex"
+    },
+    {
+      "address": "0x200004f0",
+      "size": 4,
+      "kind": "b",
+      "name": "timeToNextUpdateMs.9987"
+    },
+    {
+      "address": "0x200004f4",
+      "size": 4,
+      "kind": "b",
+      "name": "eventSchedulerCallback"
+    },
+    {
+      "address": "0x200004f8",
+      "size": 4,
+      "kind": "b",
+      "name": "mObjList"
+    },
+    {
+      "address": "0x200004fc",
+      "size": 4,
+      "kind": "b",
+      "name": "mQueue"
+    },
+    {
+      "address": "0x20000500",
+      "size": 4,
+      "kind": "b",
+      "name": "ulTaskSwitchedInTime"
+    },
+    {
+      "address": "0x20000504",
+      "size": 4,
+      "kind": "b",
+      "name": "xNumOfOverflows"
+    },
+    {
+      "address": "0x20000508",
+      "size": 4,
+      "kind": "b",
+      "name": "pxDelayedTaskList"
+    },
+    {
+      "address": "0x2000050c",
+      "size": 4,
+      "kind": "b",
+      "name": "xSchedulerRunning"
+    },
+    {
+      "address": "0x20000510",
+      "size": 4,
+      "kind": "b",
+      "name": "uxTasksDeleted"
+    },
+    {
+      "address": "0x20000514",
+      "size": 20,
+      "kind": "b",
+      "name": "xDelayedTaskList1"
+    },
+    {
+      "address": "0x20000528",
+      "size": 20,
+      "kind": "b",
+      "name": "xDelayedTaskList2"
+    },
+    {
+      "address": "0x2000053c",
+      "size": 4,
+      "kind": "b",
+      "name": "uxPendedTicks"
+    },
+    {
+      "address": "0x20000540",
+      "size": 100,
+      "kind": "b",
+      "name": "pxReadyTasksLists"
+    },
+    {
+      "address": "0x200005a4",
+      "size": 20,
+      "kind": "b",
+      "name": "xTasksWaitingTermination"
+    },
+    {
+      "address": "0x200005b8",
+      "size": 4,
+      "kind": "b",
+      "name": "ulTotalRunTime"
+    },
+    {
+      "address": "0x200005bc",
+      "size": 4,
+      "kind": "B",
+      "name": "pxCurrentTCB"
+    },
+    {
+      "address": "0x200005c0",
+      "size": 20,
+      "kind": "b",
+      "name": "xPendingReadyList"
+    },
+    {
+      "address": "0x200005d4",
+      "size": 4,
+      "kind": "b",
+      "name": "uxSchedulerSuspended"
+    },
+    {
+      "address": "0x200005d8",
+      "size": 4,
+      "kind": "b",
+      "name": "xTickCount"
+    },
+    {
+      "address": "0x200005dc",
+      "size": 4,
+      "kind": "b",
+      "name": "pxOverflowDelayedTaskList"
+    },
+    {
+      "address": "0x200005e0",
+      "size": 4,
+      "kind": "b",
+      "name": "uxTaskNumber"
+    },
+    {
+      "address": "0x200005e4",
+      "size": 4,
+      "kind": "b",
+      "name": "uxCurrentNumberOfTasks"
+    },
+    {
+      "address": "0x200005e8",
+      "size": 4,
+      "kind": "b",
+      "name": "xIdleTaskHandle"
+    },
+    {
+      "address": "0x200005ec",
+      "size": 20,
+      "kind": "b",
+      "name": "xSuspendedTaskList"
+    },
+    {
+      "address": "0x20000600",
+      "size": 4,
+      "kind": "b",
+      "name": "uxTopReadyPriority"
+    },
+    {
+      "address": "0x20000604",
+      "size": 4,
+      "kind": "b",
+      "name": "xYieldPending"
+    },
+    {
+      "address": "0x20000608",
+      "size": 16,
+      "kind": "b",
+      "name": "sum.9281"
+    },
+    {
+      "address": "0x20000618",
+      "size": 4,
+      "kind": "b",
+      "name": "xHigherPriorityTaskWoken.9297"
+    },
+    {
+      "address": "0x2000061c",
+      "size": 4,
+      "kind": "b",
+      "name": "us_ticks"
+    },
+    {
+      "address": "0x20000620",
+      "size": 4,
+      "kind": "b",
+      "name": "prev_primask"
+    },
+    {
+      "address": "0x20000624",
+      "size": 4,
+      "kind": "b",
+      "name": "nested_ctr"
+    },
+    {
+      "address": "0x20000628",
+      "size": 24,
+      "kind": "b",
+      "name": "pios_servo_bank_timer"
+    },
+    {
+      "address": "0x20000640",
+      "size": 4,
+      "kind": "b",
+      "name": "pios_servo_pin_bank"
+    },
+    {
+      "address": "0x20000644",
+      "size": 4,
+      "kind": "b",
+      "name": "servo_cfg"
+    },
+    {
+      "address": "0x20000648",
+      "size": 60,
+      "kind": "b",
+      "name": "pios_tim_devs"
+    },
+    {
+      "address": "0x20000684",
+      "size": 4,
+      "kind": "b",
+      "name": "PIOS_USART_1_id"
+    },
+    {
+      "address": "0x20000688",
+      "size": 4,
+      "kind": "b",
+      "name": "PIOS_USART_2_id"
+    },
+    {
+      "address": "0x2000068c",
+      "size": 4,
+      "kind": "b",
+      "name": "PIOS_USART_3_id"
+    },
+    {
+      "address": "0x20000690",
+      "size": 4,
+      "kind": "b",
+      "name": "pios_usb_com_id"
+    },
+    {
+      "address": "0x20000694",
+      "size": 4,
+      "kind": "b",
+      "name": "pios_usb_cdc_id"
+    },
+    {
+      "address": "0x20000698",
+      "size": 4,
+      "kind": "b",
+      "name": "pios_usb_hid_id"
+    },
+    {
+      "address": "0x2000069c",
+      "size": 4,
+      "kind": "B",
+      "name": "bDeviceState"
+    },
+    {
+      "address": "0x200006a0",
+      "size": 8,
+      "kind": "b",
+      "name": "Config_Descriptor"
+    },
+    {
+      "address": "0x200006a8",
+      "size": 8,
+      "kind": "b",
+      "name": "Hid_Descriptor"
+    },
+    {
+      "address": "0x200006b0",
+      "size": 8,
+      "kind": "b",
+      "name": "Hid_Report_Descriptor"
+    },
+    {
+      "address": "0x200006b8",
+      "size": 8,
+      "kind": "b",
+      "name": "Device_Descriptor"
+    },
+    {
+      "address": "0x200006c0",
+      "size": 32,
+      "kind": "b",
+      "name": "String_Descriptor"
+    },
+    {
+      "address": "0x200006e0",
+      "size": 4,
+      "kind": "b",
+      "name": "xNextFreeByte"
+    },
+    {
+      "address": "0x200006e4",
+      "size": 4,
+      "kind": "b",
+      "name": "pucAlignedHeap.4914"
+    },
+    {
+      "address": "0x200006e8",
+      "size": 4,
+      "kind": "b",
+      "name": "dev"
+    },
+    {
+      "address": "0x200006ec",
+      "size": 4,
+      "kind": "b",
+      "name": "dev"
+    },
+    {
+      "address": "0x200006f0",
+      "size": 4,
+      "kind": "b",
+      "name": "queue_data"
+    },
+    {
+      "address": "0x200006f4",
+      "size": 4,
+      "kind": "B",
+      "name": "hooks"
+    },
+    {
+      "address": "0x200006f8",
+      "size": 4,
+      "kind": "b",
+      "name": "mutex"
+    },
+    {
+      "address": "0x200006fc",
+      "size": 4,
+      "kind": "b",
+      "name": "used_buffer_space"
+    },
+    {
+      "address": "0x20000700",
+      "size": 4,
+      "kind": "b",
+      "name": "buffer"
+    },
+    {
+      "address": "0x20000704",
+      "size": 4,
+      "kind": "b",
+      "name": "xHigherPriorityTaskWoken.9247"
+    },
+    {
+      "address": "0x20000708",
+      "size": 4,
+      "kind": "b",
+      "name": "xHigherPriorityTaskWoken.9242"
+    },
+    {
+      "address": "0x2000070c",
+      "size": 4,
+      "kind": "b",
+      "name": "pios_led_gpios_id"
+    },
+    {
+      "address": "0x20000710",
+      "size": 4,
+      "kind": "b",
+      "name": "mLastIdleMonitorTime"
+    },
+    {
+      "address": "0x20000714",
+      "size": 4,
+      "kind": "b",
+      "name": "mLastMonitorTime"
+    },
+    {
+      "address": "0x20000718",
+      "size": 4,
+      "kind": "b",
+      "name": "mTaskHandles"
+    },
+    {
+      "address": "0x2000071c",
+      "size": 4,
+      "kind": "b",
+      "name": "mLock"
+    },
+    {
+      "address": "0x20000720",
+      "size": 4,
+      "kind": "b",
+      "name": "mutex"
+    },
+    {
+      "address": "0x20000724",
+      "size": 4,
+      "kind": "b",
+      "name": "schedulerTasks"
+    },
+    {
+      "address": "0x20000728",
+      "size": 4,
+      "kind": "b",
+      "name": "gyro_queue"
+    },
+    {
+      "address": "0x2000072c",
+      "size": 4,
+      "kind": "b",
+      "name": "yawBiasRate"
+    },
+    {
+      "address": "0x20000730",
+      "size": 4,
+      "kind": "b",
+      "name": "accel_alpha"
+    },
+    {
+      "address": "0x20000734",
+      "size": 12,
+      "kind": "b",
+      "name": "gyro_correct_int"
+    },
+    {
+      "address": "0x20000740",
+      "size": 36,
+      "kind": "b",
+      "name": "R"
+    },
+    {
+      "address": "0x20000764",
+      "size": 4,
+      "kind": "b",
+      "name": "mpu6000_data"
+    },
+    {
+      "address": "0x20000768",
+      "size": 12,
+      "kind": "b",
+      "name": "grot_filtered"
+    },
+    {
+      "address": "0x20000774",
+      "size": 4,
+      "kind": "b",
+      "name": "accelKi"
+    },
+    {
+      "address": "0x20000778",
+      "size": 4,
+      "kind": "b",
+      "name": "taskHandle"
+    },
+    {
+      "address": "0x2000077c",
+      "size": 20,
+      "kind": "b",
+      "name": "dtconfig"
+    },
+    {
+      "address": "0x20000790",
+      "size": 12,
+      "kind": "b",
+      "name": "gyro_temp_bias"
+    },
+    {
+      "address": "0x2000079c",
+      "size": 4,
+      "kind": "b",
+      "name": "rollPitchBiasRate"
+    },
+    {
+      "address": "0x200007a0",
+      "size": 12,
+      "kind": "b",
+      "name": "trim_accels"
+    },
+    {
+      "address": "0x200007ac",
+      "size": 4,
+      "kind": "b",
+      "name": "trim_samples"
+    },
+    {
+      "address": "0x200007b0",
+      "size": 4,
+      "kind": "b",
+      "name": "accelKp"
+    },
+    {
+      "address": "0x200007b4",
+      "size": 12,
+      "kind": "b",
+      "name": "accel_temp_bias"
+    },
+    {
+      "address": "0x200007c0",
+      "size": 12,
+      "kind": "b",
+      "name": "accels_filtered"
+    },
+    {
+      "address": "0x200007cc",
+      "size": 4,
+      "kind": "b",
+      "name": "previous_time.10569"
+    },
+    {
+      "address": "0x200007d0",
+      "size": 4,
+      "kind": "b",
+      "name": "previous_angle.10568"
+    },
+    {
+      "address": "0x200007d4",
+      "size": 12,
+      "kind": "b",
+      "name": "axis_lock_accum"
+    },
+    {
+      "address": "0x200007e0",
+      "size": 4,
+      "kind": "b",
+      "name": "callbackHandle"
+    },
+    {
+      "address": "0x200007e4",
+      "size": 12,
+      "kind": "b",
+      "name": "gyro_filtered"
+    },
+    {
+      "address": "0x200007f0",
+      "size": 20,
+      "kind": "b",
+      "name": "timeval"
+    },
+    {
+      "address": "0x20000804",
+      "size": 28,
+      "kind": "b",
+      "name": "attitude"
+    },
+    {
+      "address": "0x20000820",
+      "size": 4,
+      "kind": "b",
+      "name": "callbackHandle"
+    },
+    {
+      "address": "0x20000824",
+      "size": 20,
+      "kind": "b",
+      "name": "timeval"
+    },
+    {
+      "address": "0x20000838",
+      "size": 12,
+      "kind": "b",
+      "name": "vbar_integral"
+    },
+    {
+      "address": "0x20000844",
+      "size": 48,
+      "kind": "b",
+      "name": "filterAccumulator"
+    },
+    {
+      "address": "0x20000874",
+      "size": 4,
+      "kind": "b",
+      "name": "taskHandle"
+    },
+    {
+      "address": "0x20000878",
+      "size": 48,
+      "kind": "b",
+      "name": "lastFilteredResult.11665"
+    },
+    {
+      "address": "0x200008a8",
+      "size": 4,
+      "kind": "b",
+      "name": "queue"
+    },
+    {
+      "address": "0x200008ac",
+      "size": 4,
+      "kind": "b",
+      "name": "lastSysTime.11721"
+    },
+    {
+      "address": "0x200008b0",
+      "size": 48,
+      "kind": "b",
+      "name": "lastResult"
+    },
+    {
+      "address": "0x200008e0",
+      "size": 12,
+      "kind": "b",
+      "name": "tunestate.11713"
+    },
+    {
+      "address": "0x200008ec",
+      "size": 12,
+      "kind": "b",
+      "name": "tune.11712"
+    },
+    {
+      "address": "0x200008f8",
+      "size": 4,
+      "kind": "b",
+      "name": "lastSysTime"
+    },
+    {
+      "address": "0x200008fc",
+      "size": 4,
+      "kind": "b",
+      "name": "taskHandle"
+    },
+    {
+      "address": "0x20000900",
+      "size": 4,
+      "kind": "b",
+      "name": "lastSysTimeLPF"
+    },
+    {
+      "address": "0x20000904",
+      "size": 28,
+      "kind": "b",
+      "name": "inputFiltered"
+    },
+    {
+      "address": "0x20000920",
+      "size": 4,
+      "kind": "b",
+      "name": "armedDisarmStart.10595"
+    },
+    {
+      "address": "0x20000924",
+      "size": 4,
+      "kind": "b",
+      "name": "callbackHandle"
+    },
+    {
+      "address": "0x20000928",
+      "size": 4,
+      "kind": "b",
+      "name": "last_time.10023"
+    },
+    {
+      "address": "0x2000092c",
+      "size": 4,
+      "kind": "b",
+      "name": "lastResetSysTime"
+    },
+    {
+      "address": "0x20000930",
+      "size": 4,
+      "kind": "b",
+      "name": "telemetryTxTaskHandle"
+    },
+    {
+      "address": "0x20000934",
+      "size": 4,
+      "kind": "b",
+      "name": "txErrors"
+    },
+    {
+      "address": "0x20000938",
+      "size": 4,
+      "kind": "b",
+      "name": "telemetryRxTaskHandle"
+    },
+    {
+      "address": "0x2000093c",
+      "size": 4,
+      "kind": "b",
+      "name": "telemetryPort"
+    },
+    {
+      "address": "0x20000940",
+      "size": 4,
+      "kind": "b",
+      "name": "txRetries"
+    },
+    {
+      "address": "0x20000944",
+      "size": 4,
+      "kind": "b",
+      "name": "queue"
+    },
+    {
+      "address": "0x20000948",
+      "size": 4,
+      "kind": "b",
+      "name": "uavTalkCon"
+    },
+    {
+      "address": "0x2000094c",
+      "size": 4,
+      "kind": "b",
+      "name": "timeOfLastObjectUpdate"
+    },
+    {
+      "address": "0x20000950",
+      "size": 4,
+      "kind": "b",
+      "name": "csd"
+    },
+    {
+      "address": "0x20000954",
+      "size": 4,
+      "kind": "b",
+      "name": "usart_port"
+    },
+    {
+      "address": "0x20000958",
+      "size": 4,
+      "kind": "b",
+      "name": "vcp_port"
+    },
+    {
+      "address": "0x2000095c",
+      "size": 4,
+      "kind": "b",
+      "name": "usb2com_buf"
+    },
+    {
+      "address": "0x20000960",
+      "size": 4,
+      "kind": "b",
+      "name": "com2UsbBridgeTaskHandle"
+    },
+    {
+      "address": "0x20000964",
+      "size": 4,
+      "kind": "b",
+      "name": "usb2ComBridgeTaskHandle"
+    },
+    {
+      "address": "0x20000968",
+      "size": 4,
+      "kind": "b",
+      "name": "com2usb_buf"
+    },
+    {
+      "address": "0x2000096c",
+      "size": 4,
+      "kind": "b",
+      "name": "gps_rx_buffer"
+    },
+    {
+      "address": "0x20000970",
+      "size": 4,
+      "kind": "b",
+      "name": "gpsTaskHandle"
+    },
+    {
+      "address": "0x20000974",
+      "size": 4,
+      "kind": "b",
+      "name": "timeOfLastCommandMs"
+    },
+    {
+      "address": "0x20000978",
+      "size": 4,
+      "kind": "b",
+      "name": "gpsPort"
+    },
+    {
+      "address": "0x2000097c",
+      "size": 4,
+      "kind": "b",
+      "name": "timeOfLastUpdateMs"
+    },
+    {
+      "address": "0x20000980",
+      "size": 8,
+      "kind": "b",
+      "name": "msgtracker"
+    },
+    {
+      "address": "0x20000988",
+      "size": 8,
+      "kind": "b",
+      "name": "ev"
+    },
+    {
+      "address": "0x20000990",
+      "size": 4,
+      "kind": "b",
+      "name": "osd_hk_com_id"
+    },
+    {
+      "address": "0x20000994",
+      "size": 2,
+      "kind": "b",
+      "name": "r_pattern.9957"
+    },
+    {
+      "address": "0x20000996",
+      "size": 2,
+      "kind": "b",
+      "name": "b_pattern.9958"
+    },
+    {
+      "address": "0x20000998",
+      "size": 4,
+      "kind": "b",
+      "name": "fsStats"
+    },
+    {
+      "address": "0x2000099c",
+      "size": 42,
+      "kind": "b",
+      "name": "lastAlarmChange"
+    },
+    {
+      "address": "0x200009c6",
+      "size": 12,
+      "kind": "b",
+      "name": "pios_servo_bank_max_pulse"
+    },
+    {
+      "address": "0x200009d2",
+      "size": 12,
+      "kind": "b",
+      "name": "pios_servo_bank_next_update"
+    },
+    {
+      "address": "0x200009de",
+      "size": 2,
+      "kind": "b",
+      "name": "control_line_state"
+    },
+    {
+      "address": "0x200009e0",
+      "size": 4,
+      "kind": "b",
+      "name": "wdg_configuration"
+    },
+    {
+      "address": "0x200009e4",
+      "size": 2,
+      "kind": "b",
+      "name": "flightnum"
+    },
+    {
+      "address": "0x200009e6",
+      "size": 2,
+      "kind": "b",
+      "name": "lognum"
+    },
+    {
+      "address": "0x200009e8",
+      "size": 2,
+      "kind": "b",
+      "name": "mMaxTasks"
+    },
+    {
+      "address": "0x200009ea",
+      "size": 12,
+      "kind": "b",
+      "name": "prevBankUpdateFreq.11746"
+    },
+    {
+      "address": "0x200009f6",
+      "size": 28,
+      "kind": "b",
+      "name": "activity_fsm"
+    },
+    {
+      "address": "0x20000a12",
+      "size": 8,
+      "kind": "b",
+      "name": "gpsRxStats"
+    },
+    {
+      "address": "0x20000a1a",
+      "size": 1,
+      "kind": "b",
+      "name": "forceShowFlightMode.9961"
+    },
+    {
+      "address": "0x20000a1b",
+      "size": 1,
+      "kind": "b",
+      "name": "cycleCount.9959"
+    },
+    {
+      "address": "0x20000a1c",
+      "size": 1,
+      "kind": "b",
+      "name": "runningNotification.9962"
+    },
+    {
+      "address": "0x20000a1d",
+      "size": 1,
+      "kind": "b",
+      "name": "status.9968"
+    },
+    {
+      "address": "0x20000a1e",
+      "size": 1,
+      "kind": "b",
+      "name": "started"
+    },
+    {
+      "address": "0x20000a1f",
+      "size": 1,
+      "kind": "b",
+      "name": "nextNotification"
+    },
+    {
+      "address": "0x20000a20",
+      "size": 1,
+      "kind": "b",
+      "name": "stackOverflow"
+    },
+    {
+      "address": "0x20000a21",
+      "size": 1,
+      "kind": "b",
+      "name": "bootFrameType"
+    },
+    {
+      "address": "0x20000a22",
+      "size": 1,
+      "kind": "b",
+      "name": "mallocFailed"
+    },
+    {
+      "address": "0x20000a23",
+      "size": 1,
+      "kind": "b",
+      "name": "rtc_callback_next"
+    },
+    {
+      "address": "0x20000a24",
+      "size": 6,
+      "kind": "b",
+      "name": "pios_servo_bank_mode"
+    },
+    {
+      "address": "0x20000a2a",
+      "size": 1,
+      "kind": "b",
+      "name": "dummy"
+    },
+    {
+      "address": "0x20000a2b",
+      "size": 1,
+      "kind": "b",
+      "name": "pios_tim_num_devs"
+    },
+    {
+      "address": "0x20000a2c",
+      "size": 1,
+      "kind": "b",
+      "name": "transfer_possible"
+    },
+    {
+      "address": "0x20000a2d",
+      "size": 1,
+      "kind": "B",
+      "name": "bIntPackSOF"
+    },
+    {
+      "address": "0x20000a2e",
+      "size": 1,
+      "kind": "B",
+      "name": "Data_Mul_MaxPacketSize"
+    },
+    {
+      "address": "0x20000a2f",
+      "size": 15,
+      "kind": "b",
+      "name": "mpu6000_data"
+    },
+    {
+      "address": "0x20000a3e",
+      "size": 1,
+      "kind": "B",
+      "name": "mpu6000_configured"
+    },
+    {
+      "address": "0x20000a3f",
+      "size": 1,
+      "kind": "b",
+      "name": "log_is_full"
+    },
+    {
+      "address": "0x20000a40",
+      "size": 1,
+      "kind": "b",
+      "name": "logging_enabled"
+    },
+    {
+      "address": "0x20000a41",
+      "size": 1,
+      "kind": "b",
+      "name": "fails_count"
+    },
+    {
+      "address": "0x20000a42",
+      "size": 1,
+      "kind": "b",
+      "name": "schedulerStarted"
+    },
+    {
+      "address": "0x20000a43",
+      "size": 1,
+      "kind": "b",
+      "name": "currentNotification"
+    },
+    {
+      "address": "0x20000a44",
+      "size": 1,
+      "kind": "b",
+      "name": "currentPriority"
+    },
+    {
+      "address": "0x20000a45",
+      "size": 24,
+      "kind": "b",
+      "name": "gyro_temp_coeff"
+    },
+    {
+      "address": "0x20000a5d",
+      "size": 1,
+      "kind": "b",
+      "name": "temp_calibration_count"
+    },
+    {
+      "address": "0x20000a5e",
+      "size": 1,
+      "kind": "b",
+      "name": "trim_requested"
+    },
+    {
+      "address": "0x20000a5f",
+      "size": 1,
+      "kind": "b",
+      "name": "apply_accel_temp"
+    },
+    {
+      "address": "0x20000a60",
+      "size": 12,
+      "kind": "b",
+      "name": "accel_temp_coeff"
+    },
+    {
+      "address": "0x20000a6c",
+      "size": 1,
+      "kind": "b",
+      "name": "rotate"
+    },
+    {
+      "address": "0x20000a6d",
+      "size": 8,
+      "kind": "b",
+      "name": "temp_calibrated_extent"
+    },
+    {
+      "address": "0x20000a75",
+      "size": 12,
+      "kind": "b",
+      "name": "accel_scale"
+    },
+    {
+      "address": "0x20000a81",
+      "size": 1,
+      "kind": "b",
+      "name": "apply_gyro_temp"
+    },
+    {
+      "address": "0x20000a82",
+      "size": 12,
+      "kind": "b",
+      "name": "accel_bias"
+    },
+    {
+      "address": "0x20000a8e",
+      "size": 12,
+      "kind": "b",
+      "name": "gyro_scale"
+    },
+    {
+      "address": "0x20000a9a",
+      "size": 1,
+      "kind": "b",
+      "name": "accel_filter_enabled"
+    },
+    {
+      "address": "0x20000a9b",
+      "size": 1,
+      "kind": "b",
+      "name": "zero_during_arming"
+    },
+    {
+      "address": "0x20000a9c",
+      "size": 1,
+      "kind": "b",
+      "name": "previous_time_valid.10570"
+    },
+    {
+      "address": "0x20000a9d",
+      "size": 1,
+      "kind": "b",
+      "name": "cpusaver.11439"
+    },
+    {
+      "address": "0x20000a9e",
+      "size": 1,
+      "kind": "b",
+      "name": "mixer_settings_updated"
+    },
+    {
+      "address": "0x20000a9f",
+      "size": 1,
+      "kind": "b",
+      "name": "actuator_settings_updated"
+    },
+    {
+      "address": "0x20000aa0",
+      "size": 6,
+      "kind": "b",
+      "name": "prevBankMode.11747"
+    },
+    {
+      "address": "0x20000aa6",
+      "size": 12,
+      "kind": "b",
+      "name": "pinsMode"
+    },
+    {
+      "address": "0x20000ab2",
+      "size": 1,
+      "kind": "b",
+      "name": "armState.10578"
+    },
+    {
+      "address": "0x20000ab3",
+      "size": 1,
+      "kind": "b",
+      "name": "reset_count"
+    },
+    {
+      "address": "0x20000ab4",
+      "size": 1,
+      "kind": "b",
+      "name": "iap_state"
+    },
+    {
+      "address": "0x20000ab5",
+      "size": 1,
+      "kind": "b",
+      "name": "bridge_enabled"
+    },
+    {
+      "address": "0x20000ab6",
+      "size": 1,
+      "kind": "b",
+      "name": "gpsEnabled"
+    },
+    {
+      "address": "0x20000ab7",
+      "size": 1,
+      "kind": "b",
+      "name": "ubxInitialized.10680"
+    },
+    {
+      "address": "0x20000ab8",
+      "size": 1,
+      "kind": "b",
+      "name": "proto_state.10615"
+    },
+    {
+      "address": "0x20000ab9",
+      "size": 1,
+      "kind": "b",
+      "name": "rx_count.10616"
+    },
+    {
+      "address": "0x20000aba",
+      "size": 1,
+      "kind": "b",
+      "name": "usePvt"
+    },
+    {
+      "address": "0x20000abb",
+      "size": 1,
+      "kind": "b",
+      "name": "osdoutputEnabled"
+    },
+    {
+      "address": "0x20000abc",
+      "size": 1,
+      "kind": "b",
+      "name": "osd_hk_msg_dropped"
+    },
+    {
+      "address": "0x20000abd",
+      "size": 1,
+      "kind": "b",
+      "name": "osd_packet"
+    },
+    {
+      "address": "0x20000abe",
+      "size": 11,
+      "kind": "b",
+      "name": "osd_hk_msg_buf"
+    },
+    {
+      "address": "0x20000acc",
+      "size": 4,
+      "kind": "B",
+      "name": "init_test"
+    },
+    {
+      "address": "0x20000ad0",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_com_telem_usb_id"
+    },
+    {
+      "address": "0x20000ad4",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_com_telem_rf_id"
+    },
+    {
+      "address": "0x20000ad8",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_com_gps_id"
+    },
+    {
+      "address": "0x20000adc",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_com_vcp_id"
+    },
+    {
+      "address": "0x20000ae0",
+      "size": 28,
+      "kind": "B",
+      "name": "pios_rcvr_group_map"
+    },
+    {
+      "address": "0x20000afc",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_uavo_settings_fs_id"
+    },
+    {
+      "address": "0x20000b00",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_usb_rctx_id"
+    },
+    {
+      "address": "0x20000b04",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_com_hkosd_id"
+    },
+    {
+      "address": "0x20000b08",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_com_bridge_id"
+    },
+    {
+      "address": "0x20000b0c",
+      "size": 4,
+      "kind": "B",
+      "name": "pios_adc_dev"
+    },
+    {
+      "address": "0x20000b10",
+      "size": 24,
+      "kind": "B",
+      "name": "rtc_callback_list"
+    },
+    {
+      "address": "0x20000b28",
+      "size": 4,
+      "kind": "B",
+      "name": "ProtocolValue"
+    },
+    {
+      "address": "0x20000b2c",
+      "size": 1,
+      "kind": "B",
+      "name": "EXTI_Enable"
+    },
+    {
+      "address": "0x20000b30",
+      "size": 4,
+      "kind": "B",
+      "name": "pProperty"
+    },
+    {
+      "address": "0x20000b34",
+      "size": 32,
+      "kind": "B",
+      "name": "Device_Info"
+    },
+    {
+      "address": "0x20000b54",
+      "size": 4,
+      "kind": "B",
+      "name": "pUser_Standard_Requests"
+    },
+    {
+      "address": "0x20000b58",
+      "size": 4,
+      "kind": "B",
+      "name": "pInformation"
+    },
+    {
+      "address": "0x20000b5c",
+      "size": 2,
+      "kind": "B",
+      "name": "SaveState"
+    },
+    {
+      "address": "0x20000b5e",
+      "size": 2,
+      "kind": "B",
+      "name": "wInterrupt_Mask"
+    },
+    {
+      "address": "0x20000b60",
+      "size": 1,
+      "kind": "B",
+      "name": "EPindex"
+    },
+    {
+      "address": "0x20000b64",
+      "size": 4,
+      "kind": "B",
+      "name": "gyro_test"
+    },
+    {
+      "address": "0x20000b68",
+      "size": 4,
+      "kind": "B",
+      "name": "accel_test"
+    },
+    {
+      "address": "0x20000b6c",
+      "size": 472,
+      "kind": "B",
+      "name": "stabSettings"
+    },
+    {
+      "address": "0x20000d44",
+      "size": 2,
+      "kind": "B",
+      "name": "wIstr"
+    },
+    {
+      "address": "0x20000d46",
+      "size": 2,
+      "kind": "B",
+      "name": "StatusInfo"
+    },
+    {
+      "address": "0x20000d48",
+      "size": 2,
+      "kind": "B",
+      "name": "SaveRState"
+    },
+    {
+      "address": "0x20000d4a",
+      "size": 2,
+      "kind": "B",
+      "name": "SaveTState"
+    },
+    {
+      "address": "0x20000d4c",
+      "size": 2,
+      "kind": "B",
+      "name": "ResumeS"
+    },
+    {
+      "address": "0x20000d50",
+      "size": 0,
+      "kind": "B",
+      "name": "_sheap"
+    },
+    {
+      "address": "0x20000d50",
+      "size": 0,
+      "kind": "B",
+      "name": "_sheap_pre_rtos"
+    },
+    {
+      "address": "0x20000d50",
+      "size": 13568,
+      "kind": "b",
+      "name": "ucHeap"
+    },
+    {
+      "address": "0x20004250",
+      "size": 0,
+      "kind": "B",
+      "name": "_eheap"
+    },
+    {
+      "address": "0x20004250",
+      "size": 0,
+      "kind": "B",
+      "name": "_eheap_pre_rtos"
+    },
+    {
+      "address": "0x20004250",
+      "size": 0,
+      "kind": "B",
+      "name": "_init_stack_end"
+    },
+    {
+      "address": "0x20004250",
+      "size": 0,
+      "kind": "B",
+      "name": "_sheap_post_rtos"
+    },
+    {
+      "address": "0x2000434c",
+      "size": 0,
+      "kind": "B",
+      "name": "_init_stack_top"
+    },
+    {
+      "address": "0x20004350",
+      "size": 0,
+      "kind": "B",
+      "name": "_eheap_post_rtos"
+    }
+  ]
+}

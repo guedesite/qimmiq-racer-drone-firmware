@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2014-q4-major/+download/gcc-arm-none-eabi-4_9-2014q4-20141203-linux.tar.bz2",
+    "file": "gcc-arm-none-eabi-4_9-2014q4-20141203-linux.tar.bz2",
+    "size": 66355541,
+    "sha256": "a440bcf68e36b291697567816e756877cd3b5782298e3e3c44eb0812a471980f",
+    "upstream_md5_verified": "74cc4f012699c171089e72832d95bf4c"
+  },
+  {
+    "url": "https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz",
+    "file": "Python-2.7.18.tgz",
+    "size": 17539408,
+    "sha256": "da3080e3b488f648a3d7a4560ddee895284c3380b11d6de75edb986526b9a814"
+  }
+]

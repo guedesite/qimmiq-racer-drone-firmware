@@ -1,0 +1,13 @@
+{
+  "application_base": "0x8003000",
+  "original_end_exclusive": "0x801a698",
+  "original_size": 95896,
+  "compiled_size": 95896,
+  "original_sha1": "6c47a76d1d372542e35053159aee896ed1cd1e4e",
+  "compiled_sha1": "6c47a76d1d372542e35053159aee896ed1cd1e4e",
+  "identical": true,
+  "different_bytes": 0,
+  "difference_run_count": 0,
+  "first_difference_runs": [],
+  "scope": "Application bytes only; bootloader, descriptors, external settings and option bytes excluded."
+}
